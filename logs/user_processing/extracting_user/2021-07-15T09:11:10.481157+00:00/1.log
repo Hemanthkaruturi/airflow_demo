@@ -1,0 +1,25 @@
+[2021-07-15 09:15:31,712] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: user_processing.extracting_user 2021-07-15T09:11:10.481157+00:00 [queued]>
+[2021-07-15 09:15:31,719] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: user_processing.extracting_user 2021-07-15T09:11:10.481157+00:00 [queued]>
+[2021-07-15 09:15:31,719] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 09:15:31,719] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2021-07-15 09:15:31,719] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 09:15:31,730] {taskinstance.py:1107} INFO - Executing <Task(SimpleHttpOperator): extracting_user> on 2021-07-15T09:11:10.481157+00:00
+[2021-07-15 09:15:31,734] {standard_task_runner.py:52} INFO - Started process 3829 to run task
+[2021-07-15 09:15:31,740] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'extracting_user', '2021-07-15T09:11:10.481157+00:00', '--job-id', '28', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp95teubu7', '--error-file', '/tmp/tmpv38mxsgp']
+[2021-07-15 09:15:31,741] {standard_task_runner.py:77} INFO - Job 28: Subtask extracting_user
+[2021-07-15 09:15:31,773] {logging_mixin.py:104} INFO - Running <TaskInstance: user_processing.extracting_user 2021-07-15T09:11:10.481157+00:00 [running]> on host apache-airflow.us-central1-a.c.eminent-it-info.internal
+[2021-07-15 09:15:31,810] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extracting_user
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-15T09:11:10.481157+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-15T09:11:10.481157+00:00
+[2021-07-15 09:15:31,810] {http.py:111} INFO - Calling HTTP method
+[2021-07-15 09:15:31,815] {base.py:69} INFO - Using connection to: id: user_api. Host: https://randomuser.me/, Port: None, Schema: , Login: , Password: None, extra: {}
+[2021-07-15 09:15:31,816] {http.py:140} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2021-07-15 09:15:31,925] {http.py:115} INFO - {"results":[{"gender":"female","name":{"title":"Ms","first":"Miriam","last":"Gutierrez"},"location":{"street":{"number":3234,"name":"Calle Covadonga"},"city":"La Coruña","state":"Comunidad de Madrid","country":"Spain","postcode":98872,"coordinates":{"latitude":"-24.6915","longitude":"88.0234"},"timezone":{"offset":"+1:00","description":"Brussels, Copenhagen, Madrid, Paris"}},"email":"miriam.gutierrez@example.com","login":{"uuid":"a6f75368-f856-4615-8a1c-1e870fde76e0","username":"smallbutterfly913","password":"barcelona","salt":"HuxzguHN","md5":"9da6fee9f63e1cd8599bd50c622f9422","sha1":"8c4f6908e594fda2a182b0a7d001da7fa2dfa558","sha256":"04e714d2b62a769ff992b34c2116ad5f5b7cf22f14a8c212e350f472d489715b"},"dob":{"date":"1971-10-07T16:07:54.226Z","age":50},"registered":{"date":"2010-03-23T09:41:05.246Z","age":11},"phone":"998-943-806","cell":"603-320-223","id":{"name":"DNI","value":"54403059-E"},"picture":{"large":"https://randomuser.me/api/portraits/women/5.jpg","medium":"https://randomuser.me/api/portraits/med/women/5.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/5.jpg"},"nat":"ES"}],"info":{"seed":"1f629542383725e8","results":1,"page":1,"version":"1.3"}}
+[2021-07-15 09:15:31,943] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extracting_user, execution_date=20210715T091110, start_date=20210715T091531, end_date=20210715T091531
+[2021-07-15 09:15:31,968] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-15 09:15:31,992] {local_task_job.py:151} INFO - Task exited with return code 0

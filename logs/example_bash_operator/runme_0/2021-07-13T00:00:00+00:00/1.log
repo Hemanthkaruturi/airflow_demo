@@ -1,0 +1,27 @@
+[2021-07-15 08:39:29,673] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_0 2021-07-13T00:00:00+00:00 [queued]>
+[2021-07-15 08:39:29,678] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_0 2021-07-13T00:00:00+00:00 [queued]>
+[2021-07-15 08:39:29,678] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 08:39:29,678] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2021-07-15 08:39:29,678] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 08:39:29,691] {taskinstance.py:1107} INFO - Executing <Task(BashOperator): runme_0> on 2021-07-13T00:00:00+00:00
+[2021-07-15 08:39:29,693] {standard_task_runner.py:52} INFO - Started process 1612 to run task
+[2021-07-15 08:39:29,708] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'example_bash_operator', 'runme_0', '2021-07-13T00:00:00+00:00', '--job-id', '10', '--pool', 'default_pool', '--raw', '--subdir', '/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py', '--cfg-path', '/tmp/tmpw_ulgb1l', '--error-file', '/tmp/tmpsx_i32u0']
+[2021-07-15 08:39:29,709] {standard_task_runner.py:77} INFO - Job 10: Subtask runme_0
+[2021-07-15 08:39:29,755] {logging_mixin.py:104} INFO - Running <TaskInstance: example_bash_operator.runme_0 2021-07-13T00:00:00+00:00 [running]> on host apache-airflow.us-central1-a.c.eminent-it-info.internal
+[2021-07-15 08:39:29,806] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=example_bash_operator
+AIRFLOW_CTX_TASK_ID=runme_0
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-13T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-07-13T00:00:00+00:00
+[2021-07-15 08:39:29,807] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2021-07-15 08:39:29,807] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'echo "example_bash_operator__runme_0__20210713" && sleep 1']
+[2021-07-15 08:39:29,818] {subprocess.py:75} INFO - Output:
+[2021-07-15 08:39:29,827] {subprocess.py:79} INFO - example_bash_operator__runme_0__20210713
+[2021-07-15 08:39:30,831] {subprocess.py:83} INFO - Command exited with return code 0
+[2021-07-15 08:39:30,850] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=example_bash_operator, task_id=runme_0, execution_date=20210713T000000, start_date=20210715T083929, end_date=20210715T083930
+[2021-07-15 08:39:30,871] {taskinstance.py:1265} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-07-15 08:39:30,886] {local_task_job.py:151} INFO - Task exited with return code 0

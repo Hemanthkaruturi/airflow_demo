@@ -1,0 +1,44 @@
+[2021-07-15 09:14:06,501] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: user_processing.creating_table 2021-07-15T09:11:10.481157+00:00 [queued]>
+[2021-07-15 09:14:06,506] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: user_processing.creating_table 2021-07-15T09:11:10.481157+00:00 [queued]>
+[2021-07-15 09:14:06,507] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 09:14:06,507] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2021-07-15 09:14:06,507] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 09:14:06,518] {taskinstance.py:1107} INFO - Executing <Task(SqliteOperator): creating_table> on 2021-07-15T09:11:10.481157+00:00
+[2021-07-15 09:14:06,521] {standard_task_runner.py:52} INFO - Started process 3738 to run task
+[2021-07-15 09:14:06,527] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'creating_table', '2021-07-15T09:11:10.481157+00:00', '--job-id', '25', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmps4orbkd9', '--error-file', '/tmp/tmpunz4um2j']
+[2021-07-15 09:14:06,528] {standard_task_runner.py:77} INFO - Job 25: Subtask creating_table
+[2021-07-15 09:14:06,562] {logging_mixin.py:104} INFO - Running <TaskInstance: user_processing.creating_table 2021-07-15T09:11:10.481157+00:00 [running]> on host apache-airflow.us-central1-a.c.eminent-it-info.internal
+[2021-07-15 09:14:06,600] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=creating_table
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-15T09:11:10.481157+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-15T09:11:10.481157+00:00
+[2021-07-15 09:14:06,601] {sqlite.py:61} INFO - Executing:  drop table if exists users;  create table users (
+            firstname text not null, lastname text not null, country text not null,
+            username text not null, email text not null primary key);
+            
+[2021-07-15 09:14:06,604] {base.py:69} INFO - Using connection to: id: db_sqlite. Host: /home/karuturihemanth/airflow/airflow.db, Port: None, Schema: , Login: , Password: None, extra: {}
+[2021-07-15 09:14:06,605] {dbapi.py:204} INFO - Running statement:  drop table if exists users;  create table users (
+            firstname text not null, lastname text not null, country text not null,
+            username text not null, email text not null primary key);
+            , parameters: []
+[2021-07-15 09:14:06,605] {taskinstance.py:1501} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1157, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1331, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1361, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/providers/sqlite/operators/sqlite.py", line 63, in execute
+    hook.run(self.sql, parameters=self.parameters)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/hooks/dbapi.py", line 184, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/hooks/dbapi.py", line 208, in _run_command
+    cur.execute(sql_statement)
+sqlite3.Warning: You can only execute one statement at a time.
+[2021-07-15 09:14:06,607] {taskinstance.py:1544} INFO - Marking task as FAILED. dag_id=user_processing, task_id=creating_table, execution_date=20210715T091110, start_date=20210715T091406, end_date=20210715T091406
+[2021-07-15 09:14:06,658] {local_task_job.py:151} INFO - Task exited with return code 1

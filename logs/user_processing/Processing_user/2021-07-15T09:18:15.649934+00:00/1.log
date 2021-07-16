@@ -1,0 +1,22 @@
+[2021-07-15 09:21:20,898] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: user_processing.Processing_user 2021-07-15T09:18:15.649934+00:00 [queued]>
+[2021-07-15 09:21:20,908] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: user_processing.Processing_user 2021-07-15T09:18:15.649934+00:00 [queued]>
+[2021-07-15 09:21:20,908] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 09:21:20,908] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2021-07-15 09:21:20,908] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-15 09:21:21,135] {taskinstance.py:1107} INFO - Executing <Task(PythonOperator): Processing_user> on 2021-07-15T09:18:15.649934+00:00
+[2021-07-15 09:21:21,139] {standard_task_runner.py:52} INFO - Started process 4333 to run task
+[2021-07-15 09:21:21,145] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'user_processing', 'Processing_user', '2021-07-15T09:18:15.649934+00:00', '--job-id', '50', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmp1z25nzn3', '--error-file', '/tmp/tmp1chfruxr']
+[2021-07-15 09:21:21,146] {standard_task_runner.py:77} INFO - Job 50: Subtask Processing_user
+[2021-07-15 09:21:21,392] {logging_mixin.py:104} INFO - Running <TaskInstance: user_processing.Processing_user 2021-07-15T09:18:15.649934+00:00 [running]> on host apache-airflow.us-central1-a.c.eminent-it-info.internal
+[2021-07-15 09:21:21,653] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=Processing_user
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-15T09:18:15.649934+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-15T09:18:15.649934+00:00
+[2021-07-15 09:21:21,879] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-15 09:21:21,885] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=Processing_user, execution_date=20210715T091815, start_date=20210715T092120, end_date=20210715T092121
+[2021-07-15 09:21:22,140] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-15 09:21:22,164] {local_task_job.py:151} INFO - Task exited with return code 0

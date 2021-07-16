@@ -1,0 +1,355 @@
+[2021-07-16 03:23:35,633] {scheduler_job.py:182} INFO - Started process (PID=1093) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:23:35,634] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:23:35,634] {logging_mixin.py:104} INFO - [2021-07-16 03:23:35,634] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:23:35,637] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:23:35,644] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2021-07-16 03:24:13,159] {scheduler_job.py:182} INFO - Started process (PID=1128) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:24:13,160] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:24:13,160] {logging_mixin.py:104} INFO - [2021-07-16 03:24:13,160] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:24:13,163] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:24:13,170] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.014 seconds
+[2021-07-16 03:24:51,216] {scheduler_job.py:182} INFO - Started process (PID=1173) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:24:51,218] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:24:51,219] {logging_mixin.py:104} INFO - [2021-07-16 03:24:51,219] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:24:51,222] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:24:51,229] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2021-07-16 03:25:25,271] {scheduler_job.py:182} INFO - Started process (PID=1208) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:25:25,272] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:25:25,272] {logging_mixin.py:104} INFO - [2021-07-16 03:25:25,272] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:25:25,275] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:25:25,283] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2021-07-16 03:25:59,952] {scheduler_job.py:182} INFO - Started process (PID=1242) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:25:59,953] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:25:59,954] {logging_mixin.py:104} INFO - [2021-07-16 03:25:59,954] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:25:59,956] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:25:59,964] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2021-07-16 03:26:35,676] {scheduler_job.py:182} INFO - Started process (PID=1276) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:26:35,677] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:26:35,678] {logging_mixin.py:104} INFO - [2021-07-16 03:26:35,678] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:26:35,682] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:26:35,691] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2021-07-16 03:27:28,631] {scheduler_job.py:182} INFO - Started process (PID=1325) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:27:28,632] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:27:28,632] {logging_mixin.py:104} INFO - [2021-07-16 03:27:28,632] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:27:28,635] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:27:28,642] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.014 seconds
+[2021-07-16 03:28:04,838] {scheduler_job.py:182} INFO - Started process (PID=1360) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:28:04,839] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:28:04,839] {logging_mixin.py:104} INFO - [2021-07-16 03:28:04,839] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:28:04,842] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:28:04,850] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2021-07-16 03:28:38,465] {scheduler_job.py:182} INFO - Started process (PID=1394) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:28:38,466] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:28:38,467] {logging_mixin.py:104} INFO - [2021-07-16 03:28:38,467] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:28:38,469] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:28:38,475] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.013 seconds
+[2021-07-16 03:29:13,333] {scheduler_job.py:182} INFO - Started process (PID=1428) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:29:13,334] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:29:13,334] {logging_mixin.py:104} INFO - [2021-07-16 03:29:13,334] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:29:13,337] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:29:13,344] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.014 seconds
+[2021-07-16 03:29:50,632] {scheduler_job.py:182} INFO - Started process (PID=1465) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:29:50,633] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:29:50,633] {logging_mixin.py:104} INFO - [2021-07-16 03:29:50,633] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:29:50,636] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:29:50,642] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.013 seconds
+[2021-07-16 03:30:22,690] {scheduler_job.py:182} INFO - Started process (PID=1499) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:30:22,691] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:30:22,692] {logging_mixin.py:104} INFO - [2021-07-16 03:30:22,692] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:30:22,694] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:30:22,702] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2021-07-16 03:31:01,072] {scheduler_job.py:182} INFO - Started process (PID=1536) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:31:01,073] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:31:01,074] {logging_mixin.py:104} INFO - [2021-07-16 03:31:01,074] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:31:01,077] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:31:01,084] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2021-07-16 03:31:34,818] {scheduler_job.py:182} INFO - Started process (PID=1571) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:31:34,819] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:31:34,820] {logging_mixin.py:104} INFO - [2021-07-16 03:31:34,820] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:31:34,822] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:31:34,828] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.013 seconds
+[2021-07-16 03:32:09,826] {scheduler_job.py:182} INFO - Started process (PID=1854) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:32:09,828] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:32:09,829] {logging_mixin.py:104} INFO - [2021-07-16 03:32:09,829] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:32:09,833] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:32:09,842] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2021-07-16 03:33:10,477] {scheduler_job.py:182} INFO - Started process (PID=4604) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:33:10,480] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:33:10,480] {logging_mixin.py:104} INFO - [2021-07-16 03:33:10,480] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:33:10,488] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:33:10,498] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.025 seconds
+[2021-07-16 03:33:52,636] {scheduler_job.py:182} INFO - Started process (PID=4659) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:33:52,637] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:33:52,638] {logging_mixin.py:104} INFO - [2021-07-16 03:33:52,638] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:33:52,641] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:33:52,649] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2021-07-16 03:34:29,327] {scheduler_job.py:182} INFO - Started process (PID=4722) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:34:29,329] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:34:29,330] {logging_mixin.py:104} INFO - [2021-07-16 03:34:29,330] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:34:29,333] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:34:29,343] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2021-07-16 03:35:06,037] {scheduler_job.py:182} INFO - Started process (PID=4786) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:35:06,040] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:35:06,041] {logging_mixin.py:104} INFO - [2021-07-16 03:35:06,040] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:35:06,043] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:35:06,051] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2021-07-16 03:35:42,053] {scheduler_job.py:182} INFO - Started process (PID=4946) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:35:42,055] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:35:42,056] {logging_mixin.py:104} INFO - [2021-07-16 03:35:42,056] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:35:42,061] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:35:42,068] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2021-07-16 03:36:21,680] {scheduler_job.py:182} INFO - Started process (PID=5070) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:36:21,682] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:36:21,683] {logging_mixin.py:104} INFO - [2021-07-16 03:36:21,682] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:36:21,687] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:36:21,695] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2021-07-16 03:37:01,266] {scheduler_job.py:182} INFO - Started process (PID=5110) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:37:01,268] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:37:01,268] {logging_mixin.py:104} INFO - [2021-07-16 03:37:01,268] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:37:01,271] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:37:01,279] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2021-07-16 03:37:39,311] {scheduler_job.py:182} INFO - Started process (PID=5147) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:37:39,312] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:37:39,313] {logging_mixin.py:104} INFO - [2021-07-16 03:37:39,313] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:37:39,316] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:37:39,324] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2021-07-16 03:38:12,252] {scheduler_job.py:182} INFO - Started process (PID=5182) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:38:12,254] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:38:12,255] {logging_mixin.py:104} INFO - [2021-07-16 03:38:12,254] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:38:12,257] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:38:12,265] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2021-07-16 03:38:49,692] {scheduler_job.py:182} INFO - Started process (PID=5218) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:38:49,693] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:38:49,694] {logging_mixin.py:104} INFO - [2021-07-16 03:38:49,694] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:38:49,697] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:38:49,705] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2021-07-16 03:39:25,652] {scheduler_job.py:182} INFO - Started process (PID=5254) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:39:25,653] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:39:25,654] {logging_mixin.py:104} INFO - [2021-07-16 03:39:25,653] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:39:25,656] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:39:25,663] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.014 seconds
+[2021-07-16 03:40:01,584] {scheduler_job.py:182} INFO - Started process (PID=5290) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:40:01,585] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:40:01,585] {logging_mixin.py:104} INFO - [2021-07-16 03:40:01,585] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:40:01,588] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:40:01,596] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2021-07-16 03:40:40,185] {scheduler_job.py:182} INFO - Started process (PID=5327) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:40:40,186] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:40:40,186] {logging_mixin.py:104} INFO - [2021-07-16 03:40:40,186] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:40:40,191] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:40:40,200] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2021-07-16 03:41:17,840] {scheduler_job.py:182} INFO - Started process (PID=5366) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:41:17,841] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:41:17,842] {logging_mixin.py:104} INFO - [2021-07-16 03:41:17,842] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:41:17,844] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:41:17,852] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2021-07-16 03:51:37,726] {scheduler_job.py:182} INFO - Started process (PID=5687) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:51:37,728] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 03:51:37,728] {logging_mixin.py:104} INFO - [2021-07-16 03:51:37,728] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:51:37,732] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 03:51:38,411] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.688 seconds
+[2021-07-16 10:00:28,169] {scheduler_job.py:182} INFO - Started process (PID=1212) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:00:28,170] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:00:28,171] {logging_mixin.py:104} INFO - [2021-07-16 10:00:28,171] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:00:28,174] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:00:28,824] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.658 seconds
+[2021-07-16 10:00:59,842] {scheduler_job.py:182} INFO - Started process (PID=1378) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:00:59,843] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:00:59,843] {logging_mixin.py:104} INFO - [2021-07-16 10:00:59,843] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:00:59,846] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:01:00,515] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.676 seconds
+[2021-07-16 10:01:31,750] {scheduler_job.py:182} INFO - Started process (PID=1545) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:01:31,751] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:01:31,752] {logging_mixin.py:104} INFO - [2021-07-16 10:01:31,752] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:01:31,754] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:01:32,412] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.665 seconds
+[2021-07-16 10:02:03,802] {scheduler_job.py:182} INFO - Started process (PID=1729) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:02:03,803] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:02:03,804] {logging_mixin.py:104} INFO - [2021-07-16 10:02:03,804] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:02:03,807] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:02:04,442] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.642 seconds
+[2021-07-16 10:02:35,465] {scheduler_job.py:182} INFO - Started process (PID=1899) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:02:35,466] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:02:35,467] {logging_mixin.py:104} INFO - [2021-07-16 10:02:35,467] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:02:35,469] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:02:36,135] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.673 seconds
+[2021-07-16 10:03:07,042] {scheduler_job.py:182} INFO - Started process (PID=2065) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:03:07,043] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:03:07,043] {logging_mixin.py:104} INFO - [2021-07-16 10:03:07,043] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:03:07,045] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:03:07,682] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.644 seconds
+[2021-07-16 10:03:38,982] {scheduler_job.py:182} INFO - Started process (PID=2235) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:03:38,983] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:03:38,983] {logging_mixin.py:104} INFO - [2021-07-16 10:03:38,983] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:03:38,985] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:03:39,644] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.666 seconds
+[2021-07-16 10:04:11,014] {scheduler_job.py:182} INFO - Started process (PID=2402) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:04:11,014] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:04:11,015] {logging_mixin.py:104} INFO - [2021-07-16 10:04:11,015] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:04:11,017] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:04:11,652] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.641 seconds
+[2021-07-16 10:04:44,220] {scheduler_job.py:182} INFO - Started process (PID=2571) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:04:44,221] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:04:44,222] {logging_mixin.py:104} INFO - [2021-07-16 10:04:44,222] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:04:44,225] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:04:44,893] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.677 seconds
+[2021-07-16 10:05:15,705] {scheduler_job.py:182} INFO - Started process (PID=2735) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:05:15,706] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:05:15,706] {logging_mixin.py:104} INFO - [2021-07-16 10:05:15,706] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:05:15,709] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:05:16,363] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.661 seconds
+[2021-07-16 10:05:46,514] {scheduler_job.py:182} INFO - Started process (PID=2897) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:05:46,516] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:05:46,516] {logging_mixin.py:104} INFO - [2021-07-16 10:05:46,516] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:05:46,519] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:05:47,154] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.643 seconds
+[2021-07-16 10:06:18,152] {scheduler_job.py:182} INFO - Started process (PID=3063) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:06:18,153] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:06:18,153] {logging_mixin.py:104} INFO - [2021-07-16 10:06:18,153] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:06:18,157] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:06:18,796] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.647 seconds
+[2021-07-16 10:06:49,984] {scheduler_job.py:182} INFO - Started process (PID=3230) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:06:49,985] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:06:49,986] {logging_mixin.py:104} INFO - [2021-07-16 10:06:49,986] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:06:49,989] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:06:50,627] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.647 seconds
+[2021-07-16 10:07:21,769] {scheduler_job.py:182} INFO - Started process (PID=3396) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:07:21,770] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:07:21,771] {logging_mixin.py:104} INFO - [2021-07-16 10:07:21,771] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:07:21,773] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:07:22,427] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.662 seconds
+[2021-07-16 10:07:52,955] {scheduler_job.py:182} INFO - Started process (PID=3558) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:07:52,956] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:07:52,957] {logging_mixin.py:104} INFO - [2021-07-16 10:07:52,957] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:07:52,959] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:07:53,600] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.647 seconds
+[2021-07-16 10:08:24,011] {scheduler_job.py:182} INFO - Started process (PID=3719) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:08:24,012] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:08:24,013] {logging_mixin.py:104} INFO - [2021-07-16 10:08:24,012] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:08:24,016] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:08:24,679] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.672 seconds
+[2021-07-16 10:08:56,786] {scheduler_job.py:182} INFO - Started process (PID=3887) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:08:56,787] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:08:56,787] {logging_mixin.py:104} INFO - [2021-07-16 10:08:56,787] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:08:56,790] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:08:57,427] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.645 seconds
+[2021-07-16 10:09:28,359] {scheduler_job.py:182} INFO - Started process (PID=4054) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:09:28,360] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:09:28,360] {logging_mixin.py:104} INFO - [2021-07-16 10:09:28,360] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:09:28,363] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:09:29,034] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.678 seconds
+[2021-07-16 10:09:59,808] {scheduler_job.py:182} INFO - Started process (PID=4220) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:09:59,809] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:09:59,810] {logging_mixin.py:104} INFO - [2021-07-16 10:09:59,810] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:09:59,812] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:10:00,466] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.661 seconds
+[2021-07-16 10:10:32,066] {scheduler_job.py:182} INFO - Started process (PID=4387) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:10:32,067] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:10:32,068] {logging_mixin.py:104} INFO - [2021-07-16 10:10:32,068] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:10:32,070] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:10:32,716] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.652 seconds
+[2021-07-16 10:11:03,644] {scheduler_job.py:182} INFO - Started process (PID=4553) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:11:03,645] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:11:03,645] {logging_mixin.py:104} INFO - [2021-07-16 10:11:03,645] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:11:03,648] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:11:04,307] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.667 seconds
+[2021-07-16 10:11:35,644] {scheduler_job.py:182} INFO - Started process (PID=4720) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:11:35,646] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:11:35,646] {logging_mixin.py:104} INFO - [2021-07-16 10:11:35,646] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:11:35,648] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:11:36,300] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.659 seconds
+[2021-07-16 10:12:07,332] {scheduler_job.py:182} INFO - Started process (PID=4886) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:12:07,333] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:12:07,333] {logging_mixin.py:104} INFO - [2021-07-16 10:12:07,333] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:12:07,336] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:12:07,989] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.660 seconds
+[2021-07-16 10:12:39,172] {scheduler_job.py:182} INFO - Started process (PID=5053) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:12:39,173] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:12:39,174] {logging_mixin.py:104} INFO - [2021-07-16 10:12:39,174] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:12:39,176] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:12:39,828] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.659 seconds
+[2021-07-16 10:13:10,902] {scheduler_job.py:182} INFO - Started process (PID=5219) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:13:10,903] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:13:10,903] {logging_mixin.py:104} INFO - [2021-07-16 10:13:10,903] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:13:10,906] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:13:11,541] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.643 seconds
+[2021-07-16 10:13:42,515] {scheduler_job.py:182} INFO - Started process (PID=5388) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:13:42,516] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:13:42,516] {logging_mixin.py:104} INFO - [2021-07-16 10:13:42,516] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:13:42,519] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:13:43,156] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.644 seconds
+[2021-07-16 10:14:14,397] {scheduler_job.py:182} INFO - Started process (PID=5554) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:14:14,398] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:14:14,398] {logging_mixin.py:104} INFO - [2021-07-16 10:14:14,398] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:14:14,401] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:14:15,040] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.646 seconds
+[2021-07-16 10:14:46,425] {scheduler_job.py:182} INFO - Started process (PID=5721) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:14:46,427] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 10:14:46,427] {logging_mixin.py:104} INFO - [2021-07-16 10:14:46,427] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:14:46,430] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 10:14:47,083] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.660 seconds
+[2021-07-16 11:12:27,819] {scheduler_job.py:182} INFO - Started process (PID=6845) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:12:27,819] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 11:12:27,820] {logging_mixin.py:104} INFO - [2021-07-16 11:12:27,820] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:12:27,822] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:12:28,498] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.683 seconds
+[2021-07-16 11:12:59,999] {scheduler_job.py:182} INFO - Started process (PID=6889) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:13:00,000] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 11:13:00,005] {logging_mixin.py:104} INFO - [2021-07-16 11:13:00,001] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:13:00,008] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:13:00,645] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.650 seconds
+[2021-07-16 11:13:31,112] {scheduler_job.py:182} INFO - Started process (PID=6924) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:13:31,113] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 11:13:31,114] {logging_mixin.py:104} INFO - [2021-07-16 11:13:31,113] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:13:31,117] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:13:31,799] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.691 seconds
+[2021-07-16 11:14:02,890] {scheduler_job.py:182} INFO - Started process (PID=6958) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:14:02,891] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 11:14:02,892] {logging_mixin.py:104} INFO - [2021-07-16 11:14:02,892] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:14:02,894] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:14:03,564] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.677 seconds
+[2021-07-16 11:14:34,224] {scheduler_job.py:182} INFO - Started process (PID=6992) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:14:34,225] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 11:14:34,225] {logging_mixin.py:104} INFO - [2021-07-16 11:14:34,225] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:14:34,228] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:14:34,890] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.669 seconds
+[2021-07-16 11:15:06,562] {scheduler_job.py:182} INFO - Started process (PID=7026) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:15:06,563] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 11:15:06,563] {logging_mixin.py:104} INFO - [2021-07-16 11:15:06,563] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:15:06,566] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:15:07,225] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.667 seconds
+[2021-07-16 11:15:38,714] {scheduler_job.py:182} INFO - Started process (PID=7063) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:15:38,715] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 11:15:38,715] {logging_mixin.py:104} INFO - [2021-07-16 11:15:38,715] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:15:38,718] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:15:39,372] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.661 seconds
+[2021-07-16 11:16:10,352] {scheduler_job.py:182} INFO - Started process (PID=7097) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:16:10,353] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 11:16:10,354] {logging_mixin.py:104} INFO - [2021-07-16 11:16:10,354] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:16:10,356] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:16:11,006] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.656 seconds
+[2021-07-16 11:16:41,755] {scheduler_job.py:182} INFO - Started process (PID=7131) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:16:41,756] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 11:16:41,756] {logging_mixin.py:104} INFO - [2021-07-16 11:16:41,756] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:16:41,760] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:16:42,415] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.663 seconds
+[2021-07-16 11:17:14,876] {scheduler_job.py:182} INFO - Started process (PID=7168) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:17:14,876] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 11:17:14,877] {logging_mixin.py:104} INFO - [2021-07-16 11:17:14,877] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:17:14,879] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:17:15,568] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.696 seconds
+[2021-07-16 11:17:46,252] {scheduler_job.py:182} INFO - Started process (PID=7400) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:17:46,253] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 11:17:46,253] {logging_mixin.py:104} INFO - [2021-07-16 11:17:46,253] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:17:46,256] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:17:46,910] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.662 seconds
+[2021-07-16 11:18:18,087] {scheduler_job.py:182} INFO - Started process (PID=7433) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:18:18,088] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 11:18:18,088] {logging_mixin.py:104} INFO - [2021-07-16 11:18:18,088] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:18:18,091] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:18:18,727] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.643 seconds
+[2021-07-16 11:18:50,090] {scheduler_job.py:182} INFO - Started process (PID=7468) to work on /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:18:50,091] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-07-16 11:18:50,091] {logging_mixin.py:104} INFO - [2021-07-16 11:18:50,091] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:18:50,094] {scheduler_job.py:645} WARNING - No viable dags retrieved from /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-07-16 11:18:50,762] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.675 seconds
