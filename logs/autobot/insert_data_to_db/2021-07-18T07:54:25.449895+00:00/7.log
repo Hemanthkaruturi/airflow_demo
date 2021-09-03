@@ -1,0 +1,22 @@
+[2021-07-19 09:21:30,899] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.insert_data_to_db 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-19 09:21:31,062] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.insert_data_to_db 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-19 09:21:31,063] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-19 09:21:31,063] {taskinstance.py:1088} INFO - Starting attempt 7 of 7
+[2021-07-19 09:21:31,063] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-19 09:21:31,420] {taskinstance.py:1107} INFO - Executing <Task(PythonOperator): insert_data_to_db> on 2021-07-18T07:54:25.449895+00:00
+[2021-07-19 09:21:31,423] {standard_task_runner.py:52} INFO - Started process 3492 to run task
+[2021-07-19 09:21:31,425] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'autobot', 'insert_data_to_db', '2021-07-18T07:54:25.449895+00:00', '--job-id', '118', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/AutoBot.py', '--cfg-path', '/tmp/tmp9j2w5_xz', '--error-file', '/tmp/tmp7_7cdi1r']
+[2021-07-19 09:21:31,426] {standard_task_runner.py:77} INFO - Job 118: Subtask insert_data_to_db
+[2021-07-19 09:21:32,664] {logging_mixin.py:104} INFO - Running <TaskInstance: autobot.insert_data_to_db 2021-07-18T07:54:25.449895+00:00 [running]> on host apache-airflow.us-central1-a.c.eminent-it-info.internal
+[2021-07-19 09:21:34,205] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=autobot
+AIRFLOW_CTX_TASK_ID=insert_data_to_db
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-18T07:54:25.449895+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-18T07:54:25.449895+00:00
+[2021-07-19 09:21:35,738] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-19 09:21:36,030] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=autobot, task_id=insert_data_to_db, execution_date=20210718T075425, start_date=20210719T092130, end_date=20210719T092136
+[2021-07-19 09:21:36,744] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-19 09:21:37,329] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,24 @@
+[2021-07-19 08:38:51,339] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.processing_tasks.task_3 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-19 08:38:51,502] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.processing_tasks.task_3 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-19 08:38:51,502] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-19 08:38:51,502] {taskinstance.py:1088} INFO - Starting attempt 3 of 3
+[2021-07-19 08:38:51,503] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-19 08:38:51,853] {taskinstance.py:1107} INFO - Executing <Task(PythonOperator): processing_tasks.task_3> on 2021-07-18T07:54:25.449895+00:00
+[2021-07-19 08:38:51,856] {standard_task_runner.py:52} INFO - Started process 1556 to run task
+[2021-07-19 08:38:51,867] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'autobot', 'processing_tasks.task_3', '2021-07-18T07:54:25.449895+00:00', '--job-id', '85', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/AutoBot.py', '--cfg-path', '/tmp/tmp4f50eh61', '--error-file', '/tmp/tmp48nryjxx']
+[2021-07-19 08:38:51,868] {standard_task_runner.py:77} INFO - Job 85: Subtask processing_tasks.task_3
+[2021-07-19 08:38:53,096] {logging_mixin.py:104} INFO - Running <TaskInstance: autobot.processing_tasks.task_3 2021-07-18T07:54:25.449895+00:00 [running]> on host apache-airflow.us-central1-a.c.eminent-it-info.internal
+[2021-07-19 08:38:54,636] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=autobot
+AIRFLOW_CTX_TASK_ID=processing_tasks.task_3
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-18T07:54:25.449895+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-18T07:54:25.449895+00:00
+[2021-07-19 08:38:54,636] {logging_mixin.py:104} INFO - This is task 3 function
+[2021-07-19 08:38:54,935] {logging_mixin.py:104} INFO - Value recived is [None]
+[2021-07-19 08:38:54,936] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-19 08:38:55,233] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=autobot, task_id=processing_tasks.task_3, execution_date=20210718T075425, start_date=20210719T083851, end_date=20210719T083855
+[2021-07-19 08:38:55,937] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-19 08:38:55,969] {local_task_job.py:151} INFO - Task exited with return code 0

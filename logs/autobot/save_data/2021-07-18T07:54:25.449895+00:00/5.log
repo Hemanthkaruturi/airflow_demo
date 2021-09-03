@@ -1,0 +1,50 @@
+[2021-07-19 09:15:14,009] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.save_data 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-19 09:15:14,167] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.save_data 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-19 09:15:14,167] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-19 09:15:14,167] {taskinstance.py:1088} INFO - Starting attempt 5 of 5
+[2021-07-19 09:15:14,168] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-19 09:15:14,522] {taskinstance.py:1107} INFO - Executing <Task(PythonOperator): save_data> on 2021-07-18T07:54:25.449895+00:00
+[2021-07-19 09:15:14,525] {standard_task_runner.py:52} INFO - Started process 3094 to run task
+[2021-07-19 09:15:14,528] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'autobot', 'save_data', '2021-07-18T07:54:25.449895+00:00', '--job-id', '114', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/AutoBot.py', '--cfg-path', '/tmp/tmpv3ry6rx4', '--error-file', '/tmp/tmphbl5m1qj']
+[2021-07-19 09:15:14,529] {standard_task_runner.py:77} INFO - Job 114: Subtask save_data
+[2021-07-19 09:15:15,731] {logging_mixin.py:104} INFO - Running <TaskInstance: autobot.save_data 2021-07-18T07:54:25.449895+00:00 [running]> on host apache-airflow.us-central1-a.c.eminent-it-info.internal
+[2021-07-19 09:15:17,246] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=autobot
+AIRFLOW_CTX_TASK_ID=save_data
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-18T07:54:25.449895+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-18T07:54:25.449895+00:00
+[2021-07-19 09:15:17,731] {logging_mixin.py:104} INFO - <class 'list'>
+[2021-07-19 09:15:17,732] {logging_mixin.py:104} INFO - query: ['select a.email, a.phone, b.email_opt_in, b.phone_opt_in from personal_details a left join  "temp".opt_in_status b on a.email = b.email_id']
+[2021-07-19 09:15:17,732] {taskinstance.py:1501} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/pandas/io/sql.py", line 2056, in execute
+    cur.execute(*args, **kwargs)
+TypeError: argument 1 must be a string or unicode object: got list instead
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1157, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1331, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1361, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/karuturihemanth/airflow/dags/modes/report_automator.py", line 104, in save_data
+    df = pd.read_sql(query, con=conn)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/pandas/io/sql.py", line 602, in read_sql
+    return pandas_sql.read_query(
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/pandas/io/sql.py", line 2116, in read_query
+    cursor = self.execute(*args)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/pandas/io/sql.py", line 2068, in execute
+    raise ex from exc
+pandas.io.sql.DatabaseError: Execution failed on sql '['select a.email, a.phone, b.email_opt_in, b.phone_opt_in from personal_details a left join  "temp".opt_in_status b on a.email = b.email_id']': argument 1 must be a string or unicode object: got list instead
+[2021-07-19 09:15:17,734] {taskinstance.py:1544} INFO - Marking task as FAILED. dag_id=autobot, task_id=save_data, execution_date=20210718T075425, start_date=20210719T091514, end_date=20210719T091517
+[2021-07-19 09:15:18,159] {local_task_job.py:151} INFO - Task exited with return code 1

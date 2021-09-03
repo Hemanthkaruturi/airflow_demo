@@ -1,0 +1,37 @@
+[2021-07-19 09:47:37,229] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.qc_check 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-19 09:47:37,391] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.qc_check 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-19 09:47:37,392] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-19 09:47:37,392] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2021-07-19 09:47:37,392] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-19 09:47:37,769] {taskinstance.py:1107} INFO - Executing <Task(BranchPythonOperator): qc_check> on 2021-07-18T07:54:25.449895+00:00
+[2021-07-19 09:47:37,772] {standard_task_runner.py:52} INFO - Started process 4870 to run task
+[2021-07-19 09:47:37,775] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'autobot', 'qc_check', '2021-07-18T07:54:25.449895+00:00', '--job-id', '130', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/AutoBot.py', '--cfg-path', '/tmp/tmp59pzkjtu', '--error-file', '/tmp/tmpeuvu4jhx']
+[2021-07-19 09:47:37,775] {standard_task_runner.py:77} INFO - Job 130: Subtask qc_check
+[2021-07-19 09:47:38,978] {logging_mixin.py:104} INFO - Running <TaskInstance: autobot.qc_check 2021-07-18T07:54:25.449895+00:00 [running]> on host apache-airflow.us-central1-a.c.eminent-it-info.internal
+[2021-07-19 09:47:40,536] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=autobot
+AIRFLOW_CTX_TASK_ID=qc_check
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-18T07:54:25.449895+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-18T07:54:25.449895+00:00
+[2021-07-19 09:47:40,541] {python.py:151} INFO - Done. Returned value was: qc_success
+[2021-07-19 09:47:40,542] {skipmixin.py:124} INFO - Following branch qc_success
+[2021-07-19 09:47:41,133] {taskinstance.py:1501} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1157, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1331, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1361, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/operators/python.py", line 180, in execute
+    self.skip_all_except(context['ti'], branch)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/skipmixin.py", line 150, in skip_all_except
+    branch_task_ids.update(dag.get_task(branch_task_id).get_flat_relative_ids(upstream=False))
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/dag.py", line 1547, in get_task
+    raise TaskNotFound(f"Task {task_id} not found")
+airflow.exceptions.TaskNotFound: Task qc_success not found
+[2021-07-19 09:47:41,137] {taskinstance.py:1544} INFO - Marking task as FAILED. dag_id=autobot, task_id=qc_check, execution_date=20210718T075425, start_date=20210719T094737, end_date=20210719T094741
+[2021-07-19 09:47:41,561] {local_task_job.py:151} INFO - Task exited with return code 1

@@ -1,0 +1,5 @@
+email,phone,email_opt_in,phone_opt_in
+abc@xyz.com,1234567890,Y,N
+abc1@xyz.com,1234567891,Y,N
+abc2@xyz.com,1234567892,N,Y
+abc3@xyz.com,1234567893,Y,N

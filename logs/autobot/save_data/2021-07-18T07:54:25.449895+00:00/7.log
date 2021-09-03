@@ -1,0 +1,43 @@
+[2021-07-19 09:21:48,915] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.save_data 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-19 09:21:49,083] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.save_data 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-19 09:21:49,084] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-19 09:21:49,084] {taskinstance.py:1088} INFO - Starting attempt 7 of 7
+[2021-07-19 09:21:49,084] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-19 09:21:49,458] {taskinstance.py:1107} INFO - Executing <Task(PythonOperator): save_data> on 2021-07-18T07:54:25.449895+00:00
+[2021-07-19 09:21:49,461] {standard_task_runner.py:52} INFO - Started process 3512 to run task
+[2021-07-19 09:21:49,464] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'autobot', 'save_data', '2021-07-18T07:54:25.449895+00:00', '--job-id', '120', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/AutoBot.py', '--cfg-path', '/tmp/tmpbrhlteo2', '--error-file', '/tmp/tmpi5_q5q9z']
+[2021-07-19 09:21:49,464] {standard_task_runner.py:77} INFO - Job 120: Subtask save_data
+[2021-07-19 09:21:50,698] {logging_mixin.py:104} INFO - Running <TaskInstance: autobot.save_data 2021-07-18T07:54:25.449895+00:00 [running]> on host apache-airflow.us-central1-a.c.eminent-it-info.internal
+[2021-07-19 09:21:52,235] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=autobot
+AIRFLOW_CTX_TASK_ID=save_data
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-18T07:54:25.449895+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-18T07:54:25.449895+00:00
+[2021-07-19 09:21:52,795] {taskinstance.py:1501} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1157, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1331, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1361, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/karuturihemanth/airflow/dags/modes/report_automator.py", line 105, in save_data
+    df.to_csv(output_file_name, index=False)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/pandas/core/generic.py", line 3463, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1105, in to_csv
+    csv_formatter.save()
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 237, in save
+    with get_handle(
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/pandas/io/common.py", line 701, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/home/karuturihemanth/airflow/output_data/Test_output.csv'
+[2021-07-19 09:21:52,805] {taskinstance.py:1544} INFO - Marking task as FAILED. dag_id=autobot, task_id=save_data, execution_date=20210718T075425, start_date=20210719T092148, end_date=20210719T092152
+[2021-07-19 09:21:53,213] {local_task_job.py:151} INFO - Task exited with return code 1

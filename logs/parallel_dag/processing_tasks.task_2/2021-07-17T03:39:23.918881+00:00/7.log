@@ -1,0 +1,23 @@
+[2021-07-18 07:50:30,627] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: parallel_dag.processing_tasks.task_2 2021-07-17T03:39:23.918881+00:00 [queued]>
+[2021-07-18 07:50:30,789] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: parallel_dag.processing_tasks.task_2 2021-07-17T03:39:23.918881+00:00 [queued]>
+[2021-07-18 07:50:30,789] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-18 07:50:30,789] {taskinstance.py:1088} INFO - Starting attempt 7 of 7
+[2021-07-18 07:50:30,789] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-18 07:50:31,141] {taskinstance.py:1107} INFO - Executing <Task(PythonOperator): processing_tasks.task_2> on 2021-07-17T03:39:23.918881+00:00
+[2021-07-18 07:50:31,148] {standard_task_runner.py:52} INFO - Started process 6560 to run task
+[2021-07-18 07:50:31,151] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'parallel_dag', 'processing_tasks.task_2', '2021-07-17T03:39:23.918881+00:00', '--job-id', '55', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/parallel_dag.py', '--cfg-path', '/tmp/tmp2uiuta96', '--error-file', '/tmp/tmphvjyhb1u']
+[2021-07-18 07:50:31,152] {standard_task_runner.py:77} INFO - Job 55: Subtask processing_tasks.task_2
+[2021-07-18 07:50:32,356] {logging_mixin.py:104} INFO - Running <TaskInstance: parallel_dag.processing_tasks.task_2 2021-07-17T03:39:23.918881+00:00 [running]> on host apache-airflow.us-central1-a.c.eminent-it-info.internal
+[2021-07-18 07:50:33,872] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=parallel_dag
+AIRFLOW_CTX_TASK_ID=processing_tasks.task_2
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-17T03:39:23.918881+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-17T03:39:23.918881+00:00
+[2021-07-18 07:50:33,873] {logging_mixin.py:104} INFO - This is task 2 function
+[2021-07-18 07:50:34,453] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-18 07:50:34,745] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=parallel_dag, task_id=processing_tasks.task_2, execution_date=20210717T033923, start_date=20210718T075030, end_date=20210718T075034
+[2021-07-18 07:50:35,434] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-18 07:50:35,469] {local_task_job.py:151} INFO - Task exited with return code 0

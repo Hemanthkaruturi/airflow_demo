@@ -1,0 +1,23 @@
+[2021-07-18 07:57:38,157] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.connect_db 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-18 07:57:38,315] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.connect_db 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-18 07:57:38,315] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-18 07:57:38,315] {taskinstance.py:1088} INFO - Starting attempt 2 of 2
+[2021-07-18 07:57:38,315] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-18 07:57:38,678] {taskinstance.py:1107} INFO - Executing <Task(PythonOperator): connect_db> on 2021-07-18T07:54:25.449895+00:00
+[2021-07-18 07:57:38,682] {standard_task_runner.py:52} INFO - Started process 7118 to run task
+[2021-07-18 07:57:38,688] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'autobot', 'connect_db', '2021-07-18T07:54:25.449895+00:00', '--job-id', '62', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/AutoBot.py', '--cfg-path', '/tmp/tmp2epxgm_q', '--error-file', '/tmp/tmpv_bardt5']
+[2021-07-18 07:57:38,689] {standard_task_runner.py:77} INFO - Job 62: Subtask connect_db
+[2021-07-18 07:57:39,885] {logging_mixin.py:104} INFO - Running <TaskInstance: autobot.connect_db 2021-07-18T07:54:25.449895+00:00 [running]> on host apache-airflow.us-central1-a.c.eminent-it-info.internal
+[2021-07-18 07:57:41,409] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=autobot
+AIRFLOW_CTX_TASK_ID=connect_db
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-18T07:54:25.449895+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-18T07:54:25.449895+00:00
+[2021-07-18 07:57:41,410] {logging_mixin.py:104} INFO - {'conf': <airflow.configuration.AirflowConfigParser object at 0x7fe567c95100>, 'dag': <DAG: autobot>, 'dag_run': <DagRun autobot @ 2021-07-18 07:54:25.449895+00:00: manual__2021-07-18T07:54:25.449895+00:00, externally triggered: True>, 'ds': '2021-07-18', 'ds_nodash': '20210718', 'execution_date': DateTime(2021, 7, 18, 7, 54, 25, 449895, tzinfo=Timezone('+00:00')), 'inlets': [], 'macros': <module 'airflow.macros' from '/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/macros/__init__.py'>, 'next_ds': '2021-07-18', 'next_ds_nodash': '20210718', 'next_execution_date': DateTime(2021, 7, 18, 7, 54, 25, 449895, tzinfo=Timezone('+00:00')), 'outlets': [], 'params': {}, 'prev_ds': '2021-07-18', 'prev_ds_nodash': '20210718', 'prev_execution_date': DateTime(2021, 7, 18, 7, 54, 25, 449895, tzinfo=Timezone('+00:00')), 'prev_execution_date_success': <Proxy at 0x7fe553fd28c0 with factory <function TaskInstance.get_template_context.<locals>.<lambda> at 0x7fe55402fb80>>, 'prev_start_date_success': <Proxy at 0x7fe553fd2d80 with factory <function TaskInstance.get_template_context.<locals>.<lambda> at 0x7fe553fd7040>>, 'run_id': 'manual__2021-07-18T07:54:25.449895+00:00', 'task': <Task(PythonOperator): connect_db>, 'task_instance': <TaskInstance: autobot.connect_db 2021-07-18T07:54:25.449895+00:00 [running]>, 'task_instance_key_str': 'autobot__connect_db__20210718', 'test_mode': False, 'tomorrow_ds': '2021-07-19', 'tomorrow_ds_nodash': '20210719', 'ts': '2021-07-18T07:54:25.449895+00:00', 'ts_nodash': '20210718T075425', 'ts_nodash_with_tz': '20210718T075425.449895+0000', 'var': {'json': None, 'value': None}, 'yesterday_ds': '2021-07-17', 'yesterday_ds_nodash': '20210717', 'host_address': 'ec2-3-218-71-191.compute-1.amazonaws.com', 'port_number': '5432', 'templates_dict': None}
+[2021-07-18 07:57:41,979] {python.py:151} INFO - Done. Returned value was: None
+[2021-07-18 07:57:42,266] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=autobot, task_id=connect_db, execution_date=20210718T075425, start_date=20210718T075738, end_date=20210718T075742
+[2021-07-18 07:57:42,990] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-18 07:57:42,997] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,36 @@
+project_name: "Airflow"
+
+Connection:
+  - host_address: "ec2-3-218-71-191.compute-1.amazonaws.com"
+  - port_number: "5432"
+  - dbname: "dcae1ij0h93ine"
+  - usrname: "oewqrhjeudwsip"
+  - pswd: "e213633892e629df3d685673df39765ebef2450f365c9d48c6e3937b1761c1c5"
+  - HAFT:
+    - host: ""
+    - username: ""
+    - password: ""
+    - folder: ""
+
+data_to_greenplum:
+  - upload: "yes"
+  - file_type: "csv/txt" # you can specify 'excel' if it is an excel file
+  - sep: ","
+  - sheet_name: ""
+  - filepath: "/home/karuturihemanth/airflow/data/personal_details.csv"
+  - tablename: "personal_details"
+
+execute_script:
+  - cond: 'yes'
+  #- params: {'FY':'2021-FY', 'Q1':'2021-Q1'}
+  - params: {}
+  - sql_script_path: "/home/karuturihemanth/airflow/scripts/sql_scripts.sql"
+
+save_file:
+  - cond: 'yes'
+  - output_file_name: "/home/karuturihemanth/airflow/output_data/Test_output.csv"
+
+delete_output_table: 'no'
+
+upload_to_haft: "no"
+

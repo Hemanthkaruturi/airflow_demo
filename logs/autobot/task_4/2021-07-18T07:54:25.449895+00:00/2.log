@@ -1,0 +1,26 @@
+[2021-07-18 08:21:06,160] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.task_4 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-18 08:21:06,348] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.task_4 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-18 08:21:06,349] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-18 08:21:06,349] {taskinstance.py:1088} INFO - Starting attempt 2 of 2
+[2021-07-18 08:21:06,349] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-18 08:21:06,703] {taskinstance.py:1107} INFO - Executing <Task(BashOperator): task_4> on 2021-07-18T07:54:25.449895+00:00
+[2021-07-18 08:21:06,707] {standard_task_runner.py:52} INFO - Started process 8145 to run task
+[2021-07-18 08:21:06,713] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'autobot', 'task_4', '2021-07-18T07:54:25.449895+00:00', '--job-id', '76', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/AutoBot.py', '--cfg-path', '/tmp/tmp3hovulf_', '--error-file', '/tmp/tmptgagv31y']
+[2021-07-18 08:21:06,714] {standard_task_runner.py:77} INFO - Job 76: Subtask task_4
+[2021-07-18 08:21:07,930] {logging_mixin.py:104} INFO - Running <TaskInstance: autobot.task_4 2021-07-18T07:54:25.449895+00:00 [running]> on host apache-airflow.us-central1-a.c.eminent-it-info.internal
+[2021-07-18 08:21:09,428] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=autobot
+AIRFLOW_CTX_TASK_ID=task_4
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-18T07:54:25.449895+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-18T07:54:25.449895+00:00
+[2021-07-18 08:21:09,429] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2021-07-18 08:21:09,429] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'sleep 3']
+[2021-07-18 08:21:09,438] {subprocess.py:75} INFO - Output:
+[2021-07-18 08:21:12,440] {subprocess.py:83} INFO - Command exited with return code 0
+[2021-07-18 08:21:13,306] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=autobot, task_id=task_4, execution_date=20210718T075425, start_date=20210718T082106, end_date=20210718T082113
+[2021-07-18 08:21:14,012] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-18 08:21:14,020] {local_task_job.py:151} INFO - Task exited with return code 0

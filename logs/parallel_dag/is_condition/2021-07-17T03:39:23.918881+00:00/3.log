@@ -1,0 +1,24 @@
+[2021-07-18 05:05:15,199] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: parallel_dag.is_condition 2021-07-17T03:39:23.918881+00:00 [queued]>
+[2021-07-18 05:05:15,579] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: parallel_dag.is_condition 2021-07-17T03:39:23.918881+00:00 [queued]>
+[2021-07-18 05:05:15,579] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-18 05:05:15,579] {taskinstance.py:1088} INFO - Starting attempt 3 of 3
+[2021-07-18 05:05:15,579] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-18 05:05:15,705] {taskinstance.py:1107} INFO - Executing <Task(BranchPythonOperator): is_condition> on 2021-07-17T03:39:23.918881+00:00
+[2021-07-18 05:05:15,708] {standard_task_runner.py:52} INFO - Started process 1842 to run task
+[2021-07-18 05:05:15,713] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'parallel_dag', 'is_condition', '2021-07-17T03:39:23.918881+00:00', '--job-id', '48', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/parallel_dag.py', '--cfg-path', '/tmp/tmp_lopi2me', '--error-file', '/tmp/tmpx9iqix57']
+[2021-07-18 05:05:15,714] {standard_task_runner.py:77} INFO - Job 48: Subtask is_condition
+[2021-07-18 05:05:16,897] {logging_mixin.py:104} INFO - Running <TaskInstance: parallel_dag.is_condition 2021-07-17T03:39:23.918881+00:00 [running]> on host apache-airflow.us-central1-a.c.eminent-it-info.internal
+[2021-07-18 05:05:18,433] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=parallel_dag
+AIRFLOW_CTX_TASK_ID=is_condition
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-17T03:39:23.918881+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-17T03:39:23.918881+00:00
+[2021-07-18 05:05:18,433] {python.py:151} INFO - Done. Returned value was: task_4
+[2021-07-18 05:05:18,433] {skipmixin.py:124} INFO - Following branch task_4
+[2021-07-18 05:05:18,730] {skipmixin.py:155} INFO - Skipping tasks ['task_5']
+[2021-07-18 05:05:20,434] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=parallel_dag, task_id=is_condition, execution_date=20210717T033923, start_date=20210718T050515, end_date=20210718T050520
+[2021-07-18 05:05:21,171] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-18 05:05:21,626] {local_task_job.py:151} INFO - Task exited with return code 0

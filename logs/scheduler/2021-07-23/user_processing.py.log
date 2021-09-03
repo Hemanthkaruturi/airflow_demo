@@ -1,0 +1,700 @@
+[2021-07-23 12:10:48,356] {scheduler_job.py:182} INFO - Started process (PID=779) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:10:48,358] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:10:48,358] {logging_mixin.py:104} INFO - [2021-07-23 12:10:48,358] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:10:49,542] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:10:50,229] {logging_mixin.py:104} INFO - [2021-07-23 12:10:50,228] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:10:50,334] {logging_mixin.py:104} INFO - [2021-07-23 12:10:50,334] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:10:50,555] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 2.203 seconds
+[2021-07-23 12:11:21,045] {scheduler_job.py:182} INFO - Started process (PID=911) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:11:21,047] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:11:21,047] {logging_mixin.py:104} INFO - [2021-07-23 12:11:21,047] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:11:21,714] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:11:22,383] {logging_mixin.py:104} INFO - [2021-07-23 12:11:22,383] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:11:22,487] {logging_mixin.py:104} INFO - [2021-07-23 12:11:22,487] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:11:22,705] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.670 seconds
+[2021-07-23 12:11:53,572] {scheduler_job.py:182} INFO - Started process (PID=929) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:11:53,573] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:11:53,574] {logging_mixin.py:104} INFO - [2021-07-23 12:11:53,574] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:11:54,011] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:11:54,671] {logging_mixin.py:104} INFO - [2021-07-23 12:11:54,671] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:11:54,773] {logging_mixin.py:104} INFO - [2021-07-23 12:11:54,773] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:11:54,996] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.427 seconds
+[2021-07-23 12:12:25,067] {scheduler_job.py:182} INFO - Started process (PID=950) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:12:25,068] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:12:25,068] {logging_mixin.py:104} INFO - [2021-07-23 12:12:25,068] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:12:25,479] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:12:26,151] {logging_mixin.py:104} INFO - [2021-07-23 12:12:26,150] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:12:26,255] {logging_mixin.py:104} INFO - [2021-07-23 12:12:26,255] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:12:26,479] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.416 seconds
+[2021-07-23 12:12:56,554] {scheduler_job.py:182} INFO - Started process (PID=968) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:12:56,555] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:12:56,555] {logging_mixin.py:104} INFO - [2021-07-23 12:12:56,555] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:12:56,924] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:12:57,593] {logging_mixin.py:104} INFO - [2021-07-23 12:12:57,593] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:12:57,696] {logging_mixin.py:104} INFO - [2021-07-23 12:12:57,696] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:12:57,916] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.365 seconds
+[2021-07-23 12:13:28,034] {scheduler_job.py:182} INFO - Started process (PID=985) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:13:28,035] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:13:28,035] {logging_mixin.py:104} INFO - [2021-07-23 12:13:28,035] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:13:28,432] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:13:29,074] {logging_mixin.py:104} INFO - [2021-07-23 12:13:29,074] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:13:29,175] {logging_mixin.py:104} INFO - [2021-07-23 12:13:29,174] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:13:29,389] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.360 seconds
+[2021-07-23 12:13:59,504] {scheduler_job.py:182} INFO - Started process (PID=1003) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:13:59,505] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:13:59,506] {logging_mixin.py:104} INFO - [2021-07-23 12:13:59,506] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:13:59,881] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:14:00,531] {logging_mixin.py:104} INFO - [2021-07-23 12:14:00,530] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:14:00,631] {logging_mixin.py:104} INFO - [2021-07-23 12:14:00,631] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:14:00,844] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.343 seconds
+[2021-07-23 12:14:31,130] {scheduler_job.py:182} INFO - Started process (PID=1020) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:14:31,130] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:14:31,131] {logging_mixin.py:104} INFO - [2021-07-23 12:14:31,131] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:14:31,507] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:14:32,153] {logging_mixin.py:104} INFO - [2021-07-23 12:14:32,152] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:14:32,257] {logging_mixin.py:104} INFO - [2021-07-23 12:14:32,257] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:14:32,471] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.345 seconds
+[2021-07-23 12:15:02,843] {scheduler_job.py:182} INFO - Started process (PID=1038) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:15:02,843] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:15:02,844] {logging_mixin.py:104} INFO - [2021-07-23 12:15:02,844] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:15:03,220] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:15:03,881] {logging_mixin.py:104} INFO - [2021-07-23 12:15:03,880] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:15:03,983] {logging_mixin.py:104} INFO - [2021-07-23 12:15:03,983] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:15:04,199] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.360 seconds
+[2021-07-23 12:15:34,306] {scheduler_job.py:182} INFO - Started process (PID=1055) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:15:34,309] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:15:34,310] {logging_mixin.py:104} INFO - [2021-07-23 12:15:34,310] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:15:34,683] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:15:35,348] {logging_mixin.py:104} INFO - [2021-07-23 12:15:35,348] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:15:35,449] {logging_mixin.py:104} INFO - [2021-07-23 12:15:35,449] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:15:35,665] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.362 seconds
+[2021-07-23 12:16:06,337] {scheduler_job.py:182} INFO - Started process (PID=1389) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:16:06,338] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:16:06,339] {logging_mixin.py:104} INFO - [2021-07-23 12:16:06,339] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:16:06,723] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:16:07,367] {logging_mixin.py:104} INFO - [2021-07-23 12:16:07,367] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:16:07,469] {logging_mixin.py:104} INFO - [2021-07-23 12:16:07,469] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:16:07,684] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.351 seconds
+[2021-07-23 12:16:37,805] {scheduler_job.py:182} INFO - Started process (PID=1407) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:16:37,805] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:16:37,806] {logging_mixin.py:104} INFO - [2021-07-23 12:16:37,806] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:16:38,205] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:16:38,869] {logging_mixin.py:104} INFO - [2021-07-23 12:16:38,869] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:16:38,973] {logging_mixin.py:104} INFO - [2021-07-23 12:16:38,973] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:16:39,194] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.393 seconds
+[2021-07-23 12:17:09,274] {scheduler_job.py:182} INFO - Started process (PID=1425) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:17:09,275] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:17:09,275] {logging_mixin.py:104} INFO - [2021-07-23 12:17:09,275] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:17:09,660] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:17:10,319] {logging_mixin.py:104} INFO - [2021-07-23 12:17:10,319] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:17:10,421] {logging_mixin.py:104} INFO - [2021-07-23 12:17:10,421] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:17:10,640] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.370 seconds
+[2021-07-23 12:17:40,800] {scheduler_job.py:182} INFO - Started process (PID=1442) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:17:40,801] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:17:40,802] {logging_mixin.py:104} INFO - [2021-07-23 12:17:40,802] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:17:41,200] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:17:41,852] {logging_mixin.py:104} INFO - [2021-07-23 12:17:41,852] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:17:41,953] {logging_mixin.py:104} INFO - [2021-07-23 12:17:41,953] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:17:42,170] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.377 seconds
+[2021-07-23 12:18:12,630] {scheduler_job.py:182} INFO - Started process (PID=1462) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:18:12,632] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:18:12,632] {logging_mixin.py:104} INFO - [2021-07-23 12:18:12,632] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:18:13,025] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:18:13,706] {logging_mixin.py:104} INFO - [2021-07-23 12:18:13,706] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:18:13,811] {logging_mixin.py:104} INFO - [2021-07-23 12:18:13,811] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:18:14,036] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.409 seconds
+[2021-07-23 12:18:44,504] {scheduler_job.py:182} INFO - Started process (PID=1479) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:18:44,505] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:18:44,506] {logging_mixin.py:104} INFO - [2021-07-23 12:18:44,505] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:18:44,895] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:18:45,576] {logging_mixin.py:104} INFO - [2021-07-23 12:18:45,576] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:18:45,682] {logging_mixin.py:104} INFO - [2021-07-23 12:18:45,682] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:18:45,903] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.403 seconds
+[2021-07-23 12:19:16,343] {scheduler_job.py:182} INFO - Started process (PID=1497) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:19:16,344] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:19:16,345] {logging_mixin.py:104} INFO - [2021-07-23 12:19:16,345] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:19:16,726] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:19:17,384] {logging_mixin.py:104} INFO - [2021-07-23 12:19:17,383] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:19:17,486] {logging_mixin.py:104} INFO - [2021-07-23 12:19:17,486] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:19:17,700] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.361 seconds
+[2021-07-23 12:19:47,967] {scheduler_job.py:182} INFO - Started process (PID=1514) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:19:47,968] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:19:47,968] {logging_mixin.py:104} INFO - [2021-07-23 12:19:47,968] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:19:48,342] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:19:48,999] {logging_mixin.py:104} INFO - [2021-07-23 12:19:48,999] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:19:49,103] {logging_mixin.py:104} INFO - [2021-07-23 12:19:49,103] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:19:49,321] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.357 seconds
+[2021-07-23 12:20:19,708] {scheduler_job.py:182} INFO - Started process (PID=1532) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:20:19,709] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:20:19,709] {logging_mixin.py:104} INFO - [2021-07-23 12:20:19,709] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:20:20,088] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:20:20,758] {logging_mixin.py:104} INFO - [2021-07-23 12:20:20,758] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:20:20,860] {logging_mixin.py:104} INFO - [2021-07-23 12:20:20,860] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:20:21,079] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.374 seconds
+[2021-07-23 12:20:51,755] {scheduler_job.py:182} INFO - Started process (PID=1552) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:20:51,756] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:20:51,756] {logging_mixin.py:104} INFO - [2021-07-23 12:20:51,756] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:20:52,123] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:20:52,796] {logging_mixin.py:104} INFO - [2021-07-23 12:20:52,795] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:20:52,899] {logging_mixin.py:104} INFO - [2021-07-23 12:20:52,899] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:20:53,123] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.371 seconds
+[2021-07-23 12:21:23,225] {scheduler_job.py:182} INFO - Started process (PID=1569) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:21:23,226] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:21:23,227] {logging_mixin.py:104} INFO - [2021-07-23 12:21:23,226] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:21:23,615] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:21:24,270] {logging_mixin.py:104} INFO - [2021-07-23 12:21:24,270] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:21:24,373] {logging_mixin.py:104} INFO - [2021-07-23 12:21:24,372] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:21:24,591] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.369 seconds
+[2021-07-23 12:21:54,695] {scheduler_job.py:182} INFO - Started process (PID=1587) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:21:54,696] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:21:54,697] {logging_mixin.py:104} INFO - [2021-07-23 12:21:54,696] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:21:55,075] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:21:55,739] {logging_mixin.py:104} INFO - [2021-07-23 12:21:55,739] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:21:55,842] {logging_mixin.py:104} INFO - [2021-07-23 12:21:55,842] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:21:56,061] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.370 seconds
+[2021-07-23 12:22:26,196] {scheduler_job.py:182} INFO - Started process (PID=1604) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:22:26,197] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:22:26,198] {logging_mixin.py:104} INFO - [2021-07-23 12:22:26,198] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:22:26,587] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:22:27,264] {logging_mixin.py:104} INFO - [2021-07-23 12:22:27,263] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:22:27,370] {logging_mixin.py:104} INFO - [2021-07-23 12:22:27,370] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:22:27,594] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.402 seconds
+[2021-07-23 12:22:58,034] {scheduler_job.py:182} INFO - Started process (PID=1624) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:22:58,034] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:22:58,035] {logging_mixin.py:104} INFO - [2021-07-23 12:22:58,035] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:22:58,410] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:22:59,070] {logging_mixin.py:104} INFO - [2021-07-23 12:22:59,070] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:22:59,173] {logging_mixin.py:104} INFO - [2021-07-23 12:22:59,173] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:22:59,392] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.362 seconds
+[2021-07-23 12:23:29,502] {scheduler_job.py:182} INFO - Started process (PID=1642) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:23:29,504] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:23:29,504] {logging_mixin.py:104} INFO - [2021-07-23 12:23:29,504] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:23:29,895] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:23:30,542] {logging_mixin.py:104} INFO - [2021-07-23 12:23:30,541] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:23:30,644] {logging_mixin.py:104} INFO - [2021-07-23 12:23:30,644] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:23:30,858] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.359 seconds
+[2021-07-23 12:24:00,974] {scheduler_job.py:182} INFO - Started process (PID=1660) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:24:00,975] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:24:00,975] {logging_mixin.py:104} INFO - [2021-07-23 12:24:00,975] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:24:01,338] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:24:02,001] {logging_mixin.py:104} INFO - [2021-07-23 12:24:02,001] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:24:02,106] {logging_mixin.py:104} INFO - [2021-07-23 12:24:02,106] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:24:02,326] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.356 seconds
+[2021-07-23 12:24:32,446] {scheduler_job.py:182} INFO - Started process (PID=1677) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:24:32,447] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:24:32,448] {logging_mixin.py:104} INFO - [2021-07-23 12:24:32,448] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:24:32,808] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:24:33,480] {logging_mixin.py:104} INFO - [2021-07-23 12:24:33,480] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:24:33,583] {logging_mixin.py:104} INFO - [2021-07-23 12:24:33,583] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:24:33,804] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.361 seconds
+[2021-07-23 12:25:04,049] {scheduler_job.py:182} INFO - Started process (PID=1697) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:25:04,050] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:25:04,050] {logging_mixin.py:104} INFO - [2021-07-23 12:25:04,050] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:25:04,422] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:25:05,080] {logging_mixin.py:104} INFO - [2021-07-23 12:25:05,079] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:25:05,181] {logging_mixin.py:104} INFO - [2021-07-23 12:25:05,181] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:25:05,394] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.349 seconds
+[2021-07-23 12:25:35,768] {scheduler_job.py:182} INFO - Started process (PID=1714) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:25:35,769] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:25:35,770] {logging_mixin.py:104} INFO - [2021-07-23 12:25:35,770] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:25:36,140] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:25:36,803] {logging_mixin.py:104} INFO - [2021-07-23 12:25:36,803] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:25:36,906] {logging_mixin.py:104} INFO - [2021-07-23 12:25:36,906] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:25:37,124] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.359 seconds
+[2021-07-23 12:26:07,914] {scheduler_job.py:182} INFO - Started process (PID=1736) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:26:07,915] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:26:07,915] {logging_mixin.py:104} INFO - [2021-07-23 12:26:07,915] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:26:08,312] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:26:08,972] {logging_mixin.py:104} INFO - [2021-07-23 12:26:08,972] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:26:09,074] {logging_mixin.py:104} INFO - [2021-07-23 12:26:09,074] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:26:09,294] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.383 seconds
+[2021-07-23 12:26:39,376] {scheduler_job.py:182} INFO - Started process (PID=1753) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:26:39,377] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:26:39,378] {logging_mixin.py:104} INFO - [2021-07-23 12:26:39,378] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:26:39,739] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:26:40,404] {logging_mixin.py:104} INFO - [2021-07-23 12:26:40,404] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:26:40,505] {logging_mixin.py:104} INFO - [2021-07-23 12:26:40,505] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:26:40,721] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.348 seconds
+[2021-07-23 12:27:10,845] {scheduler_job.py:182} INFO - Started process (PID=1775) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:27:10,845] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:27:10,847] {logging_mixin.py:104} INFO - [2021-07-23 12:27:10,846] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:27:11,236] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:27:11,901] {logging_mixin.py:104} INFO - [2021-07-23 12:27:11,900] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:27:12,003] {logging_mixin.py:104} INFO - [2021-07-23 12:27:12,003] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:27:12,222] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.381 seconds
+[2021-07-23 12:27:42,314] {scheduler_job.py:182} INFO - Started process (PID=1792) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:27:42,315] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:27:42,315] {logging_mixin.py:104} INFO - [2021-07-23 12:27:42,315] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:27:42,683] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:27:43,359] {logging_mixin.py:104} INFO - [2021-07-23 12:27:43,359] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:27:43,465] {logging_mixin.py:104} INFO - [2021-07-23 12:27:43,465] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:27:43,688] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.378 seconds
+[2021-07-23 12:28:14,148] {scheduler_job.py:182} INFO - Started process (PID=1810) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:28:14,149] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:28:14,150] {logging_mixin.py:104} INFO - [2021-07-23 12:28:14,150] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:28:14,522] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:28:15,179] {logging_mixin.py:104} INFO - [2021-07-23 12:28:15,178] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:28:15,281] {logging_mixin.py:104} INFO - [2021-07-23 12:28:15,281] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:28:15,500] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.355 seconds
+[2021-07-23 12:28:45,614] {scheduler_job.py:182} INFO - Started process (PID=1827) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:28:45,615] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:28:45,616] {logging_mixin.py:104} INFO - [2021-07-23 12:28:45,616] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:28:45,980] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:28:46,669] {logging_mixin.py:104} INFO - [2021-07-23 12:28:46,668] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:28:46,772] {logging_mixin.py:104} INFO - [2021-07-23 12:28:46,772] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:28:46,994] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.383 seconds
+[2021-07-23 12:29:17,085] {scheduler_job.py:182} INFO - Started process (PID=1845) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:29:17,087] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:29:17,087] {logging_mixin.py:104} INFO - [2021-07-23 12:29:17,087] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:29:17,449] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:29:18,123] {logging_mixin.py:104} INFO - [2021-07-23 12:29:18,122] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:29:18,227] {logging_mixin.py:104} INFO - [2021-07-23 12:29:18,227] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:29:18,448] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.367 seconds
+[2021-07-23 12:29:48,581] {scheduler_job.py:182} INFO - Started process (PID=1868) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:29:48,582] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:29:48,582] {logging_mixin.py:104} INFO - [2021-07-23 12:29:48,582] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:29:48,950] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:29:49,604] {logging_mixin.py:104} INFO - [2021-07-23 12:29:49,604] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:29:49,705] {logging_mixin.py:104} INFO - [2021-07-23 12:29:49,705] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:29:49,921] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.344 seconds
+[2021-07-23 12:30:20,209] {scheduler_job.py:182} INFO - Started process (PID=1887) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:30:20,210] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:30:20,210] {logging_mixin.py:104} INFO - [2021-07-23 12:30:20,210] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:30:20,577] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:30:21,238] {logging_mixin.py:104} INFO - [2021-07-23 12:30:21,237] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:30:21,340] {logging_mixin.py:104} INFO - [2021-07-23 12:30:21,340] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:30:21,559] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.353 seconds
+[2021-07-23 12:30:52,524] {scheduler_job.py:182} INFO - Started process (PID=1909) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:30:52,525] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:30:52,526] {logging_mixin.py:104} INFO - [2021-07-23 12:30:52,526] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:30:52,896] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:30:53,571] {logging_mixin.py:104} INFO - [2021-07-23 12:30:53,570] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:30:53,676] {logging_mixin.py:104} INFO - [2021-07-23 12:30:53,676] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:30:53,900] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.379 seconds
+[2021-07-23 12:31:24,375] {scheduler_job.py:182} INFO - Started process (PID=1926) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:31:24,376] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:31:24,376] {logging_mixin.py:104} INFO - [2021-07-23 12:31:24,376] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:31:24,735] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:31:25,409] {logging_mixin.py:104} INFO - [2021-07-23 12:31:25,408] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:31:25,512] {logging_mixin.py:104} INFO - [2021-07-23 12:31:25,512] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:31:25,736] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.365 seconds
+[2021-07-23 12:31:55,844] {scheduler_job.py:182} INFO - Started process (PID=1944) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:31:55,845] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:31:55,846] {logging_mixin.py:104} INFO - [2021-07-23 12:31:55,846] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:31:56,225] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:31:56,878] {logging_mixin.py:104} INFO - [2021-07-23 12:31:56,878] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:31:56,983] {logging_mixin.py:104} INFO - [2021-07-23 12:31:56,983] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:31:57,198] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.359 seconds
+[2021-07-23 12:32:27,314] {scheduler_job.py:182} INFO - Started process (PID=1961) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:32:27,315] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:32:27,316] {logging_mixin.py:104} INFO - [2021-07-23 12:32:27,316] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:32:27,685] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:32:28,337] {logging_mixin.py:104} INFO - [2021-07-23 12:32:28,337] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:32:28,437] {logging_mixin.py:104} INFO - [2021-07-23 12:32:28,437] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:32:28,652] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.341 seconds
+[2021-07-23 12:32:58,784] {scheduler_job.py:182} INFO - Started process (PID=1979) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:32:58,786] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:32:58,786] {logging_mixin.py:104} INFO - [2021-07-23 12:32:58,786] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:32:59,154] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:32:59,801] {logging_mixin.py:104} INFO - [2021-07-23 12:32:59,801] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:32:59,903] {logging_mixin.py:104} INFO - [2021-07-23 12:32:59,903] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:33:00,119] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.339 seconds
+[2021-07-23 12:33:30,265] {scheduler_job.py:182} INFO - Started process (PID=1996) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:33:30,266] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:33:30,267] {logging_mixin.py:104} INFO - [2021-07-23 12:33:30,267] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:33:30,629] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:33:31,291] {logging_mixin.py:104} INFO - [2021-07-23 12:33:31,291] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:33:31,393] {logging_mixin.py:104} INFO - [2021-07-23 12:33:31,392] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:33:31,611] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.350 seconds
+[2021-07-23 12:34:01,783] {scheduler_job.py:182} INFO - Started process (PID=2014) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:34:01,785] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:34:01,785] {logging_mixin.py:104} INFO - [2021-07-23 12:34:01,785] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:34:02,161] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:34:02,803] {logging_mixin.py:104} INFO - [2021-07-23 12:34:02,803] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:34:02,904] {logging_mixin.py:104} INFO - [2021-07-23 12:34:02,904] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:34:03,117] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.338 seconds
+[2021-07-23 12:34:33,299] {scheduler_job.py:182} INFO - Started process (PID=2031) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:34:33,301] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:34:33,302] {logging_mixin.py:104} INFO - [2021-07-23 12:34:33,302] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:34:33,658] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:34:34,322] {logging_mixin.py:104} INFO - [2021-07-23 12:34:34,322] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:34:34,424] {logging_mixin.py:104} INFO - [2021-07-23 12:34:34,424] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:34:34,642] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.346 seconds
+[2021-07-23 12:35:04,853] {scheduler_job.py:182} INFO - Started process (PID=2049) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:35:04,854] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:35:04,854] {logging_mixin.py:104} INFO - [2021-07-23 12:35:04,854] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:35:05,228] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:35:05,878] {logging_mixin.py:104} INFO - [2021-07-23 12:35:05,877] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:35:05,979] {logging_mixin.py:104} INFO - [2021-07-23 12:35:05,979] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:35:06,195] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.346 seconds
+[2021-07-23 12:35:36,505] {scheduler_job.py:182} INFO - Started process (PID=2066) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:35:36,505] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:35:36,506] {logging_mixin.py:104} INFO - [2021-07-23 12:35:36,506] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:35:36,862] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:35:37,527] {logging_mixin.py:104} INFO - [2021-07-23 12:35:37,527] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:35:37,631] {logging_mixin.py:104} INFO - [2021-07-23 12:35:37,630] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:35:37,852] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.351 seconds
+[2021-07-23 12:36:08,794] {scheduler_job.py:182} INFO - Started process (PID=2086) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:36:08,794] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:36:08,795] {logging_mixin.py:104} INFO - [2021-07-23 12:36:08,795] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:36:09,171] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:36:09,833] {logging_mixin.py:104} INFO - [2021-07-23 12:36:09,833] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:36:09,933] {logging_mixin.py:104} INFO - [2021-07-23 12:36:09,933] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:36:10,147] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.357 seconds
+[2021-07-23 12:36:40,349] {scheduler_job.py:182} INFO - Started process (PID=2105) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:36:40,350] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:36:40,351] {logging_mixin.py:104} INFO - [2021-07-23 12:36:40,351] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:36:40,715] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:36:41,415] {logging_mixin.py:104} INFO - [2021-07-23 12:36:41,415] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:36:41,520] {logging_mixin.py:104} INFO - [2021-07-23 12:36:41,520] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:36:41,743] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.398 seconds
+[2021-07-23 12:37:12,186] {scheduler_job.py:182} INFO - Started process (PID=2123) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:37:12,186] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:37:12,187] {logging_mixin.py:104} INFO - [2021-07-23 12:37:12,187] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:37:12,550] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:37:13,223] {logging_mixin.py:104} INFO - [2021-07-23 12:37:13,222] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:37:13,329] {logging_mixin.py:104} INFO - [2021-07-23 12:37:13,329] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:37:13,552] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.371 seconds
+[2021-07-23 12:37:44,030] {scheduler_job.py:182} INFO - Started process (PID=2140) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:37:44,031] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:37:44,031] {logging_mixin.py:104} INFO - [2021-07-23 12:37:44,031] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:37:44,408] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:37:45,060] {logging_mixin.py:104} INFO - [2021-07-23 12:37:45,060] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:37:45,162] {logging_mixin.py:104} INFO - [2021-07-23 12:37:45,162] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:37:45,376] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.350 seconds
+[2021-07-23 12:38:15,496] {scheduler_job.py:182} INFO - Started process (PID=2158) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:38:15,498] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:38:15,498] {logging_mixin.py:104} INFO - [2021-07-23 12:38:15,498] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:38:15,862] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:38:16,508] {logging_mixin.py:104} INFO - [2021-07-23 12:38:16,508] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:38:16,606] {logging_mixin.py:104} INFO - [2021-07-23 12:38:16,606] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:38:16,819] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.327 seconds
+[2021-07-23 12:38:46,966] {scheduler_job.py:182} INFO - Started process (PID=2175) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:38:46,967] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:38:46,968] {logging_mixin.py:104} INFO - [2021-07-23 12:38:46,968] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:38:47,329] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:38:47,989] {logging_mixin.py:104} INFO - [2021-07-23 12:38:47,988] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:38:48,090] {logging_mixin.py:104} INFO - [2021-07-23 12:38:48,090] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:38:48,310] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.347 seconds
+[2021-07-23 12:39:18,474] {scheduler_job.py:182} INFO - Started process (PID=2193) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:39:18,474] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:39:18,475] {logging_mixin.py:104} INFO - [2021-07-23 12:39:18,475] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:39:18,837] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:39:19,497] {logging_mixin.py:104} INFO - [2021-07-23 12:39:19,496] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:39:19,600] {logging_mixin.py:104} INFO - [2021-07-23 12:39:19,600] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:39:19,819] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.349 seconds
+[2021-07-23 12:39:50,017] {scheduler_job.py:182} INFO - Started process (PID=2210) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:39:50,018] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:39:50,018] {logging_mixin.py:104} INFO - [2021-07-23 12:39:50,018] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:39:50,387] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:39:51,056] {logging_mixin.py:104} INFO - [2021-07-23 12:39:51,056] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:39:51,159] {logging_mixin.py:104} INFO - [2021-07-23 12:39:51,159] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:39:51,380] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.367 seconds
+[2021-07-23 12:40:21,552] {scheduler_job.py:182} INFO - Started process (PID=2232) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:40:21,553] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:40:21,554] {logging_mixin.py:104} INFO - [2021-07-23 12:40:21,554] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:40:21,918] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:40:22,606] {logging_mixin.py:104} INFO - [2021-07-23 12:40:22,606] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:40:22,711] {logging_mixin.py:104} INFO - [2021-07-23 12:40:22,711] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:40:22,934] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.385 seconds
+[2021-07-23 12:40:53,951] {scheduler_job.py:182} INFO - Started process (PID=2252) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:40:53,952] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:40:53,953] {logging_mixin.py:104} INFO - [2021-07-23 12:40:53,953] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:40:54,314] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:40:55,003] {logging_mixin.py:104} INFO - [2021-07-23 12:40:55,002] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:40:55,110] {logging_mixin.py:104} INFO - [2021-07-23 12:40:55,110] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:40:55,333] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.386 seconds
+[2021-07-23 12:41:25,638] {scheduler_job.py:182} INFO - Started process (PID=2272) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:41:25,638] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:41:25,639] {logging_mixin.py:104} INFO - [2021-07-23 12:41:25,639] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:41:26,005] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:41:26,662] {logging_mixin.py:104} INFO - [2021-07-23 12:41:26,662] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:41:26,764] {logging_mixin.py:104} INFO - [2021-07-23 12:41:26,764] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:41:26,979] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.345 seconds
+[2021-07-23 12:41:57,081] {scheduler_job.py:182} INFO - Started process (PID=2292) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:41:57,082] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:41:57,083] {logging_mixin.py:104} INFO - [2021-07-23 12:41:57,083] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:41:57,441] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:41:58,100] {logging_mixin.py:104} INFO - [2021-07-23 12:41:58,100] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:41:58,203] {logging_mixin.py:104} INFO - [2021-07-23 12:41:58,203] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:41:58,421] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.344 seconds
+[2021-07-23 12:42:28,527] {scheduler_job.py:182} INFO - Started process (PID=2309) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:42:28,528] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:42:28,529] {logging_mixin.py:104} INFO - [2021-07-23 12:42:28,529] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:42:28,891] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:42:29,584] {logging_mixin.py:104} INFO - [2021-07-23 12:42:29,583] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:42:29,684] {logging_mixin.py:104} INFO - [2021-07-23 12:42:29,684] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:42:29,901] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.378 seconds
+[2021-07-23 12:43:00,326] {scheduler_job.py:182} INFO - Started process (PID=2329) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:43:00,326] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:43:00,327] {logging_mixin.py:104} INFO - [2021-07-23 12:43:00,327] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:43:00,696] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:43:01,344] {logging_mixin.py:104} INFO - [2021-07-23 12:43:01,344] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:43:01,445] {logging_mixin.py:104} INFO - [2021-07-23 12:43:01,445] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:43:01,661] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.339 seconds
+[2021-07-23 12:43:31,773] {scheduler_job.py:182} INFO - Started process (PID=2350) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:43:31,837] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:43:31,838] {logging_mixin.py:104} INFO - [2021-07-23 12:43:31,838] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:43:32,143] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:43:32,802] {logging_mixin.py:104} INFO - [2021-07-23 12:43:32,802] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:43:32,906] {logging_mixin.py:104} INFO - [2021-07-23 12:43:32,906] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:43:33,121] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.352 seconds
+[2021-07-23 12:44:03,282] {scheduler_job.py:182} INFO - Started process (PID=2370) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:44:03,283] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:44:03,283] {logging_mixin.py:104} INFO - [2021-07-23 12:44:03,283] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:44:03,599] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:44:04,246] {logging_mixin.py:104} INFO - [2021-07-23 12:44:04,246] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:44:04,348] {logging_mixin.py:104} INFO - [2021-07-23 12:44:04,347] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:44:04,564] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.286 seconds
+[2021-07-23 12:44:34,734] {scheduler_job.py:182} INFO - Started process (PID=2387) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:44:34,735] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:44:34,736] {logging_mixin.py:104} INFO - [2021-07-23 12:44:34,736] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:44:35,045] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:44:35,728] {logging_mixin.py:104} INFO - [2021-07-23 12:44:35,728] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:44:35,834] {logging_mixin.py:104} INFO - [2021-07-23 12:44:35,834] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:44:36,058] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.328 seconds
+[2021-07-23 12:45:06,182] {scheduler_job.py:182} INFO - Started process (PID=2405) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:45:06,183] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:45:06,183] {logging_mixin.py:104} INFO - [2021-07-23 12:45:06,183] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:45:06,512] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:45:07,167] {logging_mixin.py:104} INFO - [2021-07-23 12:45:07,166] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:45:07,269] {logging_mixin.py:104} INFO - [2021-07-23 12:45:07,269] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:45:07,486] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.308 seconds
+[2021-07-23 12:45:37,943] {scheduler_job.py:182} INFO - Started process (PID=2422) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:45:37,944] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:45:37,944] {logging_mixin.py:104} INFO - [2021-07-23 12:45:37,944] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:45:38,255] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:45:38,916] {logging_mixin.py:104} INFO - [2021-07-23 12:45:38,916] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:45:39,018] {logging_mixin.py:104} INFO - [2021-07-23 12:45:39,018] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:45:39,235] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.296 seconds
+[2021-07-23 12:46:10,973] {scheduler_job.py:182} INFO - Started process (PID=2570) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:46:10,974] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:46:10,978] {logging_mixin.py:104} INFO - [2021-07-23 12:46:10,978] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:46:11,453] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:46:12,122] {logging_mixin.py:104} INFO - [2021-07-23 12:46:12,121] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:46:12,229] {logging_mixin.py:104} INFO - [2021-07-23 12:46:12,229] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:46:12,451] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.482 seconds
+[2021-07-23 12:46:42,875] {scheduler_job.py:182} INFO - Started process (PID=7323) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:46:42,876] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:46:42,877] {logging_mixin.py:104} INFO - [2021-07-23 12:46:42,877] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:46:43,356] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:46:44,019] {logging_mixin.py:104} INFO - [2021-07-23 12:46:44,019] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:46:44,125] {logging_mixin.py:104} INFO - [2021-07-23 12:46:44,125] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:46:44,343] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.473 seconds
+[2021-07-23 12:47:14,811] {scheduler_job.py:182} INFO - Started process (PID=7342) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:47:14,812] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:47:14,813] {logging_mixin.py:104} INFO - [2021-07-23 12:47:14,813] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:47:15,261] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:47:15,926] {logging_mixin.py:104} INFO - [2021-07-23 12:47:15,926] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:47:16,029] {logging_mixin.py:104} INFO - [2021-07-23 12:47:16,029] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:47:16,250] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.443 seconds
+[2021-07-23 12:47:46,717] {scheduler_job.py:182} INFO - Started process (PID=7359) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:47:46,719] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:47:46,719] {logging_mixin.py:104} INFO - [2021-07-23 12:47:46,719] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:47:47,177] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:47:47,852] {logging_mixin.py:104} INFO - [2021-07-23 12:47:47,851] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:47:47,955] {logging_mixin.py:104} INFO - [2021-07-23 12:47:47,955] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:47:48,177] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.465 seconds
+[2021-07-23 12:48:18,649] {scheduler_job.py:182} INFO - Started process (PID=7376) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:48:18,651] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:48:18,652] {logging_mixin.py:104} INFO - [2021-07-23 12:48:18,652] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:48:19,100] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:48:19,749] {logging_mixin.py:104} INFO - [2021-07-23 12:48:19,748] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:48:19,853] {logging_mixin.py:104} INFO - [2021-07-23 12:48:19,853] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:48:20,067] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.423 seconds
+[2021-07-23 12:48:50,537] {scheduler_job.py:182} INFO - Started process (PID=7395) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:48:50,538] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:48:50,539] {logging_mixin.py:104} INFO - [2021-07-23 12:48:50,539] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:48:50,986] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:48:51,691] {logging_mixin.py:104} INFO - [2021-07-23 12:48:51,691] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:48:51,801] {logging_mixin.py:104} INFO - [2021-07-23 12:48:51,801] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:48:52,026] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.494 seconds
+[2021-07-23 12:49:22,103] {scheduler_job.py:182} INFO - Started process (PID=7413) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:49:22,105] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:49:22,105] {logging_mixin.py:104} INFO - [2021-07-23 12:49:22,105] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:49:22,557] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:49:23,260] {logging_mixin.py:104} INFO - [2021-07-23 12:49:23,260] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:49:23,370] {logging_mixin.py:104} INFO - [2021-07-23 12:49:23,370] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:49:23,595] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.497 seconds
+[2021-07-23 12:49:54,548] {scheduler_job.py:182} INFO - Started process (PID=7431) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:49:54,549] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:49:54,550] {logging_mixin.py:104} INFO - [2021-07-23 12:49:54,550] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:49:55,001] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:49:55,683] {logging_mixin.py:104} INFO - [2021-07-23 12:49:55,682] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:49:55,788] {logging_mixin.py:104} INFO - [2021-07-23 12:49:55,788] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:49:56,016] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.473 seconds
+[2021-07-23 12:50:26,454] {scheduler_job.py:182} INFO - Started process (PID=7448) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:50:26,455] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:50:26,456] {logging_mixin.py:104} INFO - [2021-07-23 12:50:26,456] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:50:26,895] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:50:27,587] {logging_mixin.py:104} INFO - [2021-07-23 12:50:27,587] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:50:27,693] {logging_mixin.py:104} INFO - [2021-07-23 12:50:27,692] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:50:27,918] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.469 seconds
+[2021-07-23 12:50:58,901] {scheduler_job.py:182} INFO - Started process (PID=7468) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:50:58,903] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:50:58,903] {logging_mixin.py:104} INFO - [2021-07-23 12:50:58,903] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:50:59,349] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:51:00,049] {logging_mixin.py:104} INFO - [2021-07-23 12:51:00,049] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:51:00,154] {logging_mixin.py:104} INFO - [2021-07-23 12:51:00,154] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:51:00,374] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.477 seconds
+[2021-07-23 12:51:30,849] {scheduler_job.py:182} INFO - Started process (PID=7485) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:51:30,850] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:51:30,851] {logging_mixin.py:104} INFO - [2021-07-23 12:51:30,851] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:51:31,297] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:51:31,957] {logging_mixin.py:104} INFO - [2021-07-23 12:51:31,957] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:51:32,061] {logging_mixin.py:104} INFO - [2021-07-23 12:51:32,061] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:51:32,275] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.431 seconds
+[2021-07-23 12:52:02,744] {scheduler_job.py:182} INFO - Started process (PID=7504) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:52:02,745] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:52:02,746] {logging_mixin.py:104} INFO - [2021-07-23 12:52:02,746] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:52:03,202] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:52:03,871] {logging_mixin.py:104} INFO - [2021-07-23 12:52:03,871] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:52:03,975] {logging_mixin.py:104} INFO - [2021-07-23 12:52:03,975] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:52:04,197] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.458 seconds
+[2021-07-23 12:52:34,664] {scheduler_job.py:182} INFO - Started process (PID=7521) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:52:34,666] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:52:34,666] {logging_mixin.py:104} INFO - [2021-07-23 12:52:34,666] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:52:35,110] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:52:35,778] {logging_mixin.py:104} INFO - [2021-07-23 12:52:35,778] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:52:35,887] {logging_mixin.py:104} INFO - [2021-07-23 12:52:35,887] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:52:36,109] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.449 seconds
+[2021-07-23 12:53:06,569] {scheduler_job.py:182} INFO - Started process (PID=7538) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:53:06,570] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:53:06,571] {logging_mixin.py:104} INFO - [2021-07-23 12:53:06,571] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:53:07,011] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:53:07,701] {logging_mixin.py:104} INFO - [2021-07-23 12:53:07,700] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:53:07,809] {logging_mixin.py:104} INFO - [2021-07-23 12:53:07,809] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:53:08,034] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.470 seconds
+[2021-07-23 12:53:38,490] {scheduler_job.py:182} INFO - Started process (PID=7554) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:53:38,492] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:53:38,493] {logging_mixin.py:104} INFO - [2021-07-23 12:53:38,492] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:53:38,940] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:53:39,624] {logging_mixin.py:104} INFO - [2021-07-23 12:53:39,623] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:53:39,729] {logging_mixin.py:104} INFO - [2021-07-23 12:53:39,729] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:53:39,954] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.469 seconds
+[2021-07-23 12:54:10,422] {scheduler_job.py:182} INFO - Started process (PID=7574) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:54:10,423] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:54:10,423] {logging_mixin.py:104} INFO - [2021-07-23 12:54:10,423] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:54:10,856] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:54:11,535] {logging_mixin.py:104} INFO - [2021-07-23 12:54:11,534] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:54:11,636] {logging_mixin.py:104} INFO - [2021-07-23 12:54:11,636] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:54:11,855] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.438 seconds
+[2021-07-23 12:54:42,312] {scheduler_job.py:182} INFO - Started process (PID=7590) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:54:42,313] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:54:42,314] {logging_mixin.py:104} INFO - [2021-07-23 12:54:42,314] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:54:42,753] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:54:43,409] {logging_mixin.py:104} INFO - [2021-07-23 12:54:43,408] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:54:43,511] {logging_mixin.py:104} INFO - [2021-07-23 12:54:43,511] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:54:43,725] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.418 seconds
+[2021-07-23 12:55:14,189] {scheduler_job.py:182} INFO - Started process (PID=7610) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:55:14,191] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:55:14,191] {logging_mixin.py:104} INFO - [2021-07-23 12:55:14,191] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:55:14,637] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:55:15,341] {logging_mixin.py:104} INFO - [2021-07-23 12:55:15,340] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:55:15,447] {logging_mixin.py:104} INFO - [2021-07-23 12:55:15,447] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:55:15,668] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.483 seconds
+[2021-07-23 12:55:46,135] {scheduler_job.py:182} INFO - Started process (PID=7628) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:55:46,136] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:55:46,137] {logging_mixin.py:104} INFO - [2021-07-23 12:55:46,137] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:55:46,572] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:55:47,257] {logging_mixin.py:104} INFO - [2021-07-23 12:55:47,256] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:55:47,365] {logging_mixin.py:104} INFO - [2021-07-23 12:55:47,365] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:55:47,592] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.463 seconds
+[2021-07-23 12:56:18,587] {scheduler_job.py:182} INFO - Started process (PID=7648) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:56:18,588] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:56:18,589] {logging_mixin.py:104} INFO - [2021-07-23 12:56:18,588] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:56:19,042] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:56:19,720] {logging_mixin.py:104} INFO - [2021-07-23 12:56:19,719] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:56:19,828] {logging_mixin.py:104} INFO - [2021-07-23 12:56:19,828] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:56:20,050] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.468 seconds
+[2021-07-23 12:56:50,516] {scheduler_job.py:182} INFO - Started process (PID=7698) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:56:50,517] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:56:50,518] {logging_mixin.py:104} INFO - [2021-07-23 12:56:50,518] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:56:50,957] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:56:51,611] {logging_mixin.py:104} INFO - [2021-07-23 12:56:51,610] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:56:51,715] {logging_mixin.py:104} INFO - [2021-07-23 12:56:51,715] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:56:51,935] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.424 seconds
+[2021-07-23 12:57:22,406] {scheduler_job.py:182} INFO - Started process (PID=7717) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:57:22,407] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:57:22,408] {logging_mixin.py:104} INFO - [2021-07-23 12:57:22,408] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:57:22,851] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:57:23,529] {logging_mixin.py:104} INFO - [2021-07-23 12:57:23,529] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:57:23,640] {logging_mixin.py:104} INFO - [2021-07-23 12:57:23,640] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:57:23,860] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.459 seconds
+[2021-07-23 12:57:54,325] {scheduler_job.py:182} INFO - Started process (PID=7734) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:57:54,326] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:57:54,327] {logging_mixin.py:104} INFO - [2021-07-23 12:57:54,327] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:57:54,768] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:57:55,417] {logging_mixin.py:104} INFO - [2021-07-23 12:57:55,416] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:57:55,520] {logging_mixin.py:104} INFO - [2021-07-23 12:57:55,520] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:57:55,734] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.413 seconds
+[2021-07-23 12:58:26,204] {scheduler_job.py:182} INFO - Started process (PID=7752) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:58:26,206] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:58:26,207] {logging_mixin.py:104} INFO - [2021-07-23 12:58:26,207] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:58:26,645] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:58:27,324] {logging_mixin.py:104} INFO - [2021-07-23 12:58:27,323] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:58:27,427] {logging_mixin.py:104} INFO - [2021-07-23 12:58:27,426] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:58:27,646] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.446 seconds
+[2021-07-23 12:58:58,123] {scheduler_job.py:182} INFO - Started process (PID=7769) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:58:58,124] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:58:58,125] {logging_mixin.py:104} INFO - [2021-07-23 12:58:58,125] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:58:58,578] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:58:59,239] {logging_mixin.py:104} INFO - [2021-07-23 12:58:59,238] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:58:59,342] {logging_mixin.py:104} INFO - [2021-07-23 12:58:59,342] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:58:59,562] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.444 seconds
+[2021-07-23 12:59:30,029] {scheduler_job.py:182} INFO - Started process (PID=7786) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:59:30,031] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 12:59:30,031] {logging_mixin.py:104} INFO - [2021-07-23 12:59:30,031] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:59:30,465] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 12:59:31,146] {logging_mixin.py:104} INFO - [2021-07-23 12:59:31,146] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 12:59:31,248] {logging_mixin.py:104} INFO - [2021-07-23 12:59:31,248] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 12:59:31,466] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.441 seconds
+[2021-07-23 13:00:01,926] {scheduler_job.py:182} INFO - Started process (PID=7805) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:00:01,928] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 13:00:01,928] {logging_mixin.py:104} INFO - [2021-07-23 13:00:01,928] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:00:02,382] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:00:03,066] {logging_mixin.py:104} INFO - [2021-07-23 13:00:03,065] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 13:00:03,177] {logging_mixin.py:104} INFO - [2021-07-23 13:00:03,177] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 13:00:03,402] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.481 seconds
+[2021-07-23 13:00:33,867] {scheduler_job.py:182} INFO - Started process (PID=7821) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:00:33,868] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 13:00:33,869] {logging_mixin.py:104} INFO - [2021-07-23 13:00:33,869] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:00:34,320] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:00:34,974] {logging_mixin.py:104} INFO - [2021-07-23 13:00:34,974] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 13:00:35,075] {logging_mixin.py:104} INFO - [2021-07-23 13:00:35,075] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 13:00:35,294] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.432 seconds
+[2021-07-23 13:01:06,304] {scheduler_job.py:182} INFO - Started process (PID=7842) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:01:06,305] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 13:01:06,306] {logging_mixin.py:104} INFO - [2021-07-23 13:01:06,306] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:01:06,737] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:01:07,394] {logging_mixin.py:104} INFO - [2021-07-23 13:01:07,394] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 13:01:07,495] {logging_mixin.py:104} INFO - [2021-07-23 13:01:07,495] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 13:01:07,711] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.412 seconds
+[2021-07-23 13:01:38,181] {scheduler_job.py:182} INFO - Started process (PID=7860) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:01:38,182] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 13:01:38,182] {logging_mixin.py:104} INFO - [2021-07-23 13:01:38,182] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:01:38,632] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:01:39,305] {logging_mixin.py:104} INFO - [2021-07-23 13:01:39,304] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 13:01:39,409] {logging_mixin.py:104} INFO - [2021-07-23 13:01:39,409] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 13:01:39,630] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.454 seconds
+[2021-07-23 13:02:10,100] {scheduler_job.py:182} INFO - Started process (PID=7877) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:02:10,102] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 13:02:10,102] {logging_mixin.py:104} INFO - [2021-07-23 13:02:10,102] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:02:10,535] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:02:11,225] {logging_mixin.py:104} INFO - [2021-07-23 13:02:11,225] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 13:02:11,336] {logging_mixin.py:104} INFO - [2021-07-23 13:02:11,336] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 13:02:11,560] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.465 seconds
+[2021-07-23 13:02:42,026] {scheduler_job.py:182} INFO - Started process (PID=7894) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:02:42,027] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 13:02:42,028] {logging_mixin.py:104} INFO - [2021-07-23 13:02:42,028] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:02:42,469] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:02:43,134] {logging_mixin.py:104} INFO - [2021-07-23 13:02:43,133] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 13:02:43,238] {logging_mixin.py:104} INFO - [2021-07-23 13:02:43,238] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 13:02:43,455] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.434 seconds
+[2021-07-23 13:03:13,927] {scheduler_job.py:182} INFO - Started process (PID=7913) to work on /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:03:13,929] {scheduler_job.py:633} INFO - Processing file /home/karuturihemanth/airflow/dags/user_processing.py for tasks to queue
+[2021-07-23 13:03:13,930] {logging_mixin.py:104} INFO - [2021-07-23 13:03:13,930] {dagbag.py:496} INFO - Filling up the DagBag from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:03:14,375] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/karuturihemanth/airflow/dags/user_processing.py
+[2021-07-23 13:03:15,030] {logging_mixin.py:104} INFO - [2021-07-23 13:03:15,029] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-23 13:03:15,137] {logging_mixin.py:104} INFO - [2021-07-23 13:03:15,137] {dag.py:2306} INFO - Setting next_dagrun for user_processing to None
+[2021-07-23 13:03:15,352] {scheduler_job.py:190} INFO - Processing /home/karuturihemanth/airflow/dags/user_processing.py took 1.430 seconds

@@ -1,0 +1,24 @@
+[2021-07-20 07:13:50,693] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.qc_check 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-20 07:13:51,074] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.qc_check 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-20 07:13:51,075] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 07:13:51,075] {taskinstance.py:1088} INFO - Starting attempt 4 of 4
+[2021-07-20 07:13:51,075] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-20 07:13:51,204] {taskinstance.py:1107} INFO - Executing <Task(BranchPythonOperator): qc_check> on 2021-07-18T07:54:25.449895+00:00
+[2021-07-20 07:13:51,207] {standard_task_runner.py:52} INFO - Started process 31552 to run task
+[2021-07-20 07:13:51,210] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'autobot', 'qc_check', '2021-07-18T07:54:25.449895+00:00', '--job-id', '148', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/AutoBot.py', '--cfg-path', '/tmp/tmpm_avhtqe', '--error-file', '/tmp/tmplq4ow34f']
+[2021-07-20 07:13:51,210] {standard_task_runner.py:77} INFO - Job 148: Subtask qc_check
+[2021-07-20 07:13:52,443] {logging_mixin.py:104} INFO - Running <TaskInstance: autobot.qc_check 2021-07-18T07:54:25.449895+00:00 [running]> on host apache-airflow.us-central1-a.c.eminent-it-info.internal
+[2021-07-20 07:13:53,988] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=autobot
+AIRFLOW_CTX_TASK_ID=qc_check
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-18T07:54:25.449895+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-18T07:54:25.449895+00:00
+[2021-07-20 07:13:53,991] {python.py:151} INFO - Done. Returned value was: upload_to_haft
+[2021-07-20 07:13:53,991] {skipmixin.py:124} INFO - Following branch upload_to_haft
+[2021-07-20 07:13:54,273] {skipmixin.py:155} INFO - Skipping tasks ['send_qc_failed_alert']
+[2021-07-20 07:13:56,106] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=autobot, task_id=qc_check, execution_date=20210718T075425, start_date=20210720T071350, end_date=20210720T071356
+[2021-07-20 07:13:56,877] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-07-20 07:13:57,127] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,38 @@
+[2021-07-19 08:46:00,165] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.execute_sql_script 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-19 08:46:00,330] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: autobot.execute_sql_script 2021-07-18T07:54:25.449895+00:00 [queued]>
+[2021-07-19 08:46:00,331] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-19 08:46:00,331] {taskinstance.py:1088} INFO - Starting attempt 2 of 2
+[2021-07-19 08:46:00,331] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2021-07-19 08:46:00,688] {taskinstance.py:1107} INFO - Executing <Task(PythonOperator): execute_sql_script> on 2021-07-18T07:54:25.449895+00:00
+[2021-07-19 08:46:00,690] {standard_task_runner.py:52} INFO - Started process 1843 to run task
+[2021-07-19 08:46:00,694] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'autobot', 'execute_sql_script', '2021-07-18T07:54:25.449895+00:00', '--job-id', '92', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/AutoBot.py', '--cfg-path', '/tmp/tmp8uzom85f', '--error-file', '/tmp/tmpvlm5g5s1']
+[2021-07-19 08:46:00,694] {standard_task_runner.py:77} INFO - Job 92: Subtask execute_sql_script
+[2021-07-19 08:46:01,927] {logging_mixin.py:104} INFO - Running <TaskInstance: autobot.execute_sql_script 2021-07-18T07:54:25.449895+00:00 [running]> on host apache-airflow.us-central1-a.c.eminent-it-info.internal
+[2021-07-19 08:46:03,484] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=autobot
+AIRFLOW_CTX_TASK_ID=execute_sql_script
+AIRFLOW_CTX_EXECUTION_DATE=2021-07-18T07:54:25.449895+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-07-18T07:54:25.449895+00:00
+[2021-07-19 08:46:03,743] {taskinstance.py:1501} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1157, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1331, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1361, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/karuturihemanth/airflow_env/lib/python3.9/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/karuturihemanth/airflow/dags/modes/report_automator.py", line 92, in execute_sql_script
+    cursor.execute(query)
+psycopg2.errors.UndefinedTable: relation "opt_in_status" does not exist
+LINE 1: ...b.phone_opt_in from personal_details a left join  opt_in_sta...
+                                                             ^
+
+[2021-07-19 08:46:03,745] {taskinstance.py:1544} INFO - Marking task as FAILED. dag_id=autobot, task_id=execute_sql_script, execution_date=20210718T075425, start_date=20210719T084600, end_date=20210719T084603
+[2021-07-19 08:46:04,160] {local_task_job.py:151} INFO - Task exited with return code 1
